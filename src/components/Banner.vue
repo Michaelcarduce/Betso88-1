@@ -225,7 +225,7 @@ onMounted(() => {
 }
 
 .banner-container:hover {
-  animation: shake 0.3s;
+  animation: shake 0.8s;
 }
 
 @keyframes shake {
@@ -239,25 +239,25 @@ onMounted(() => {
     transform: translateX(10px);
   }
   30% {
-    transform: translateX(-10px);
+    transform: translateX(-8px);
   }
   40% {
-    transform: translateX(10px);
+    transform: translateX(8px);
   }
   50% {
-    transform: translateX(-10px);
+    transform: translateX(-6px);
   }
   60% {
-    transform: translateX(10px);
+    transform: translateX(6px);
   }
   70% {
-    transform: translateX(-5px);
+    transform: translateX(-4px);
   }
   80% {
-    transform: translateX(5px);
+    transform: translateX(4px);
   }
   90% {
-    transform: translateX(-5px);
+    transform: translateX(-2px);
   }
   100% {
     transform: translateX(0);
