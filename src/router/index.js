@@ -5,7 +5,7 @@ import SlotsView from "@/views/SlotsView.vue";
 import FishingView from "@/views/FishingView.vue";
 import LiveCasinoView from "@/views/LiveCasinoView.vue";
 import DepositView from "@/views/DepositView.vue";
-import Promotionview from "@/views/Promotionview.vue";
+import Promotionview from "@/views/PromotionView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 
 const router = createRouter({
