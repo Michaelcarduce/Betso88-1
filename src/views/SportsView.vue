@@ -35,7 +35,7 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
       :imageSrc="sports1"
       :imageSrcMobile="sports1" />
     <CardGrid
-      :title="`Bassketball`"
+      :title="`Basketball`"
       :duration="1200"
       :imageSrc="sports2"
       :imageSrcMobile="sports2" />

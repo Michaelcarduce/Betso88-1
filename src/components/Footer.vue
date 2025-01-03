@@ -1,4 +1,5 @@
 <script setup>
+import { ref, onMounted, onUnmounted } from "vue";
 import { RouterLink } from "vue-router";
 import logo from "@/assets/img/logo.png";
 import social1 from "@/assets/img/social1.png";
@@ -17,6 +18,27 @@ import license1 from "@/assets/img/license1.svg";
 import license2 from "@/assets/img/license2.svg";
 import responsible1 from "@/assets/img/responsible1.svg";
 import responsible2 from "@/assets/img/responsible2.svg";
+
+const isScrolled = ref(false);
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 300; // Adjust scroll threshold as needed
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 <template>
   <!-- border-[1.5px] border-glow - for glow animation paste this in the class lists -->
@@ -229,7 +251,44 @@ import responsible2 from "@/assets/img/responsible2.svg";
         </RouterLink>
       </div>
     </div>
+
+    <!-- <button
+      v-if="isScrolled"
+      @click="scrollToTop"
+      class="fixed bottom-20 right-10 z-50 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 border border-gray-200 rounded-lg py-2 px-3 shadow-lg transition-all duration-300 hover:scale-105"
+      style="background-color: rgba(128, 0, 128, 0.2)">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6 text-white">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+      </svg>
+    </button> -->
   </footer>
+  <button
+    v-if="isScrolled"
+    @click="scrollToTop"
+    class="fixed bottom-10 right-10 z-50 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 border border-gray-300 rounded-lg py-2 px-3 shadow-lg transition-all duration-300 hover:scale-105"
+    style="background-color: rgba(128, 0, 128, 0.2)">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      style="stroke: #fff6c3"
+      class="w-6 h-6">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+    </svg>
+  </button>
 </template>
 
 <style scoped>

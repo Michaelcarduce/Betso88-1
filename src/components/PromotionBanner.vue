@@ -122,11 +122,11 @@ onMounted(() => {
   z-index: -2;
   filter: blur(5px);
 }
-
+/* 
 .banner-container:hover {
   animation: shake 0.3s;
-}
-
+} */
+/* 
 @keyframes shake {
   0% {
     transform: translateX(0);
@@ -161,7 +161,7 @@ onMounted(() => {
   100% {
     transform: translateX(0);
   }
-}
+} */
 
 .banner-image {
   width: 100%;

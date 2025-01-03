@@ -224,11 +224,11 @@ onMounted(() => {
   filter: blur(5px);
 }
 
-.banner-container:hover {
+/* .banner-container:hover {
   animation: shake 0.8s;
-}
+} */
 
-@keyframes shake {
+/* @keyframes shake {
   0% {
     transform: translateX(0);
   }
@@ -262,7 +262,7 @@ onMounted(() => {
   100% {
     transform: translateX(0);
   }
-}
+} */
 
 .banner-image {
   width: 100%;

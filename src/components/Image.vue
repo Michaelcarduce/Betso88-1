@@ -65,11 +65,12 @@ onMounted(() => {
   const animatePopIn = (element) => {
     element.style.transform = "scale(0.5)";
     const keyframes = [
-      { scale: 0.5, duration: 0 },
-      { scale: 1.2, duration: 200 },
+      { scale: 0.1, duration: 0 },
+      { scale: 1.1, duration: 200 },
       { scale: 0.8, duration: 400 },
-      { scale: 1.1, duration: 600 },
-      { scale: 1, duration: 800 },
+      { scale: 1.05, duration: 600 },
+      { scale: 0.9, duration: 800 },
+      { scale: 1, duration: 1000 },
     ];
 
     keyframes.forEach((keyframe, index) => {
@@ -112,7 +113,7 @@ onMounted(() => {
 }
 
 .image-container:hover {
-  animation: shake 0.3s;
+  animation: shake 0.6s;
 }
 
 @keyframes shake {
@@ -126,25 +127,25 @@ onMounted(() => {
     transform: translateX(10px);
   }
   30% {
-    transform: translateX(-10px);
+    transform: translateX(-8px);
   }
   40% {
-    transform: translateX(10px);
+    transform: translateX(8px);
   }
   50% {
-    transform: translateX(-10px);
+    transform: translateX(-6px);
   }
   60% {
-    transform: translateX(10px);
+    transform: translateX(6px);
   }
   70% {
-    transform: translateX(-5px);
+    transform: translateX(-4px);
   }
   80% {
-    transform: translateX(5px);
+    transform: translateX(4px);
   }
   90% {
-    transform: translateX(-5px);
+    transform: translateX(-2px);
   }
   100% {
     transform: translateX(0);
