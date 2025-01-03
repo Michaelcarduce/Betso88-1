@@ -441,7 +441,7 @@ const navLinks = [
           :class="[
             'flex items-center whitespace-nowrap rounded-md px-3 py-2 hover:bg-yellow-400 transform transition-transform duration-200 hover:scale-105',
             route.path === link.to
-              ? 'bg-yellow-400 text-black'
+              ? 'bg-yellow-400 text-black font-bold'
               : 'text-white hover:text-black',
           ]"
           @click="closeMenu">

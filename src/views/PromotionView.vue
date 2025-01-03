@@ -4,17 +4,12 @@ import Banner from "@/components/Banner.vue";
 import PromotionBanner from "@/components/PromotionBanner.vue";
 import Image from "@/components/Image.vue";
 import AnimatedCard from "@/components/AnimatedCard.vue";
-import CardGrid2 from "@/components/CardGrid2.vue";
+import InfoGraphics from "@/components/InfoGraphics.vue";
 import Footer from "@/components/Footer.vue";
 import FAQs from "@/components/FAQs.vue";
 
 import banner1 from "@/assets/img/bannerLiveCasino1.jpg";
 import bannerMobile1 from "@/assets/img/bannerLiveCasinoMobile1.jpg";
-import homeImg2 from "@/assets/img/homeImg2.png";
-import image1 from "@/assets/img/livecasino1.jpg";
-import image2 from "@/assets/img/livecasino2.jpg";
-import image3 from "@/assets/img/livecasino3.jpg";
-import image4 from "@/assets/img/livecasino4.jpg";
 import homeImg3 from "@/assets/img/livecasinoModel1.png";
 import sportsSteps from "@/assets/img/sportsSteps.jpg";
 
@@ -143,13 +138,13 @@ const faqData = [
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
     <div class="md:w-1/2 w-full">
-      <Image
+      <InfoGraphics
         width="100%"
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps"
         :imageSrcMobile="sportsSteps">
-      </Image>
+      </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
       <p
@@ -186,25 +181,25 @@ const faqData = [
       </div>
     </div>
     <div class="md:w-1/2 w-full">
-      <Image
+      <InfoGraphics
         width="100%"
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps"
         :imageSrcMobile="sportsSteps">
-      </Image>
+      </InfoGraphics>
     </div>
   </div>
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
     <div class="md:w-1/2 w-full">
-      <Image
+      <InfoGraphics
         width="100%"
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps"
         :imageSrcMobile="sportsSteps">
-      </Image>
+      </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
       <p
@@ -242,13 +237,13 @@ const faqData = [
       </div>
     </div>
     <div class="md:w-1/2 w-full">
-      <Image
+      <InfoGraphics
         width="100%"
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps"
         :imageSrcMobile="sportsSteps">
-      </Image>
+      </InfoGraphics>
     </div>
   </div>
   <p class="text-center text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">

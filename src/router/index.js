@@ -52,6 +52,13 @@ const router = createRouter({
       component: NotFoundView,
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition; // Restore saved scroll position if available (e.g., back/forward buttons)
+    } else {
+      return { top: 0 }; // Always scroll to top on navigation
+    }
+  },
 });
 
 export default router;

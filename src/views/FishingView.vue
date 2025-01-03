@@ -2,6 +2,7 @@
 import Hero from "@/components/Hero.vue";
 import Banner from "@/components/Banner.vue";
 import Image from "@/components/Image.vue";
+import InfoGraphics from "@/components/InfoGraphics.vue";
 import CardGrid2 from "@/components/CardGrid2.vue";
 import Footer from "@/components/Footer.vue";
 import FAQs from "@/components/FAQs.vue";
@@ -225,13 +226,13 @@ const faqData = [
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
     <div class="md:w-1/2 w-full">
-      <Image
+      <InfoGraphics
         width="100%"
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps"
         :imageSrcMobile="sportsSteps">
-      </Image>
+      </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
       <p
@@ -277,25 +278,25 @@ const faqData = [
       </div>
     </div>
     <div class="md:w-1/2 w-full">
-      <Image
+      <InfoGraphics
         width="100%"
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps"
         :imageSrcMobile="sportsSteps">
-      </Image>
+      </InfoGraphics>
     </div>
   </div>
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
     <div class="md:w-1/2 w-full">
-      <Image
+      <InfoGraphics
         width="100%"
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps"
         :imageSrcMobile="sportsSteps">
-      </Image>
+      </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
       <p
