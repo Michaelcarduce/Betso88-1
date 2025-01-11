@@ -6,14 +6,16 @@ import InfoGraphics from "@/components/InfoGraphics.vue";
 import CardGrid2 from "@/components/CardGrid2.vue";
 import Footer from "@/components/Footer.vue";
 
-import banner1 from "@/assets/img/bannerLiveCasino1.jpg";
-import bannerMobile1 from "@/assets/img/bannerLiveCasinoMobile1.jpg";
-import image1 from "@/assets/img/livecasino1.jpg";
-import image2 from "@/assets/img/livecasino2.jpg";
-import image3 from "@/assets/img/livecasino3.jpg";
-import image4 from "@/assets/img/livecasino4.jpg";
-import homeImg3 from "@/assets/img/livecasinoModel1.png";
-import sportsSteps from "@/assets/img/sportsSteps.jpg";
+import banner1 from "@/assets/img/liveCasinoBanner1.webp";
+import bannerMobile1 from "@/assets/img/liveCasinoBannerMobile1.webp";
+import image1 from "@/assets/img/liveCasinoGames1.webp";
+import image2 from "@/assets/img/liveCasinoGames2.webp";
+import image3 from "@/assets/img/liveCasinoGames3.webp";
+import image4 from "@/assets/img/liveCasinoGames4.webp";
+import icon1 from "@/assets/img/liveCasinoIcon1.webp";
+import steps1 from "@/assets/img/liveCasinoSteps1.webp";
+import steps2 from "@/assets/img/liveCasinoSteps2.webp";
+import steps3 from "@/assets/img/liveCasinoSteps3.webp";
 </script>
 
 <template>
@@ -142,8 +144,8 @@ import sportsSteps from "@/assets/img/sportsSteps.jpg";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps1"
+        :imageSrcMobile="steps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -191,8 +193,8 @@ import sportsSteps from "@/assets/img/sportsSteps.jpg";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps2"
+        :imageSrcMobile="steps2">
       </InfoGraphics>
     </div>
   </div>
@@ -203,8 +205,8 @@ import sportsSteps from "@/assets/img/sportsSteps.jpg";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps3"
+        :imageSrcMobile="steps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -274,8 +276,8 @@ import sportsSteps from "@/assets/img/sportsSteps.jpg";
         width="80%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="homeImg3"
-        :imageSrcMobile="homeImg3"
+        :imageSrc="icon1"
+        :imageSrcMobile="icon1"
         class="object-cover h-full">
       </Image>
     </div>

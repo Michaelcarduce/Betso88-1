@@ -5,12 +5,11 @@ import Image from "@/components/Image.vue";
 import Footer from "@/components/Footer.vue";
 import AnimatedCard from "@/components/AnimatedCard.vue";
 
-import banner1 from "@/assets/img/bannerSlot1.jpg";
-import bannerMobile1 from "@/assets/img/bannerSlotMobile1.jpg";
-import image1 from "@/assets/img/homeImg1.png";
-import imageMobile1 from "@/assets/img/homeImg1.png";
-import homeImg2 from "@/assets/img/homeImg2.png";
-import homeImg3 from "@/assets/img/homeImg3.png";
+import banner1 from "@/assets/img/slotsBanner1.webp";
+import bannerMobile1 from "@/assets/img/slotsBannerMobile1.webp";
+import image1 from "@/assets/img/slotsIcon1.webp";
+import banner2 from "@/assets/img/slotsBanner2.webp";
+import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
 </script>
 
 <template>
@@ -41,7 +40,7 @@ import homeImg3 from "@/assets/img/homeImg3.png";
     :duration="1500"
     :speed="0.8"
     :imageSrc="image1"
-    :imageSrcMobile="imageMobile1">
+    :imageSrcMobile="image1">
   </Image>
 
   <h2
@@ -259,8 +258,8 @@ import homeImg3 from "@/assets/img/homeImg3.png";
   <Banner
     width="80%"
     :duration="1500"
-    :imageSrc="banner1"
-    :imageSrcMobile="bannerMobile1" />
+    :imageSrc="banner2"
+    :imageSrcMobile="bannerMobile2" />
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">

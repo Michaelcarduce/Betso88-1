@@ -33,12 +33,12 @@ import Footer from "@/components/Footer.vue";
 // import Meta from "@/components/Meta.vue";
 // import TableOfContents from "@/components/TableOfContents.vue";
 
-import banner1 from "@/assets/img/banner1.jpg";
-import bannerMobile1 from "@/assets/img/bannerMobile1.jpg";
-import image1 from "@/assets/img/homeImg1.png";
-import imageMobile1 from "@/assets/img/homeImg1.png";
-import homeImg2 from "@/assets/img/homeImg2.png";
-import homeImg3 from "@/assets/img/homeImg3.png";
+import banner1 from "@/assets/img/homeBanner1.webp";
+import bannerMobile1 from "@/assets/img/homeBannerMobile1.webp";
+import image1 from "@/assets/img/homeIcon1.webp";
+import imageMobile1 from "@/assets/img/homeIcon1.webp";
+import homeImg2 from "@/assets/img/homeIcon2.webp";
+import homeImg3 from "@/assets/img/homeIcon3.webp";
 
 const faqData = [
   {
@@ -113,7 +113,7 @@ const faqData = [
     :imageSrcMobile="imageMobile1">
   </Image>
   <h4
-    class="hidden md:flex mt-40 mb-2 text-xl sm:text-xl md:text-1xl lg:text-2xl bg-gradient-to-r from-yellow-100 to-red-200 text-transparent bg-clip-text font-bold">
+    class="hidden md:flex mt-20 mb-2 text-xl sm:text-xl md:text-1xl lg:text-2xl bg-gradient-to-r from-yellow-100 to-red-200 text-transparent bg-clip-text font-bold">
     Table Content
   </h4>
   <div
@@ -223,12 +223,13 @@ const faqData = [
     class="text-center text-ml sm:text-m md:text-l lg:text-xl mt-10 mb-5 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold">
     Betso88 - The best online real money casino in the Philippines
   </p>
-
-  <Banner
-    width="80%"
+  <Image
+    width="30%"
     :duration="1500"
+    :speed="0.8"
     :imageSrc="homeImg2"
-    :imageSrcMobile="homeImg2" />
+    :imageSrcMobile="homeImg2">
+  </Image>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">

@@ -6,15 +6,19 @@ import InfoGraphics from "@/components/InfoGraphics.vue";
 import CardGrid from "@/components/CardGrid.vue";
 import Footer from "@/components/Footer.vue";
 
-import banner1 from "@/assets/img/banner1.jpg";
-import bannerMobile1 from "@/assets/img/bannerMobile1.jpg";
-import sports1 from "@/assets/img/sports1.png";
-import sports2 from "@/assets/img/sports2.png";
-import sports3 from "@/assets/img/sports3.png";
-import sports4 from "@/assets/img/sports4.png";
-import sportsSteps from "@/assets/img/sportsSteps.jpg";
-import image1 from "@/assets/img/homeImg1.png";
-import imageMobile1 from "@/assets/img/homeImg1.png";
+import banner1 from "@/assets/img/sportsBanner1.webp";
+import bannerMobile1 from "@/assets/img/sportsBannerMobile1.webp";
+import sports1 from "@/assets/img/sportsGrid1.webp";
+import sports2 from "@/assets/img/sportsGrid2.webp";
+import sports3 from "@/assets/img/sportsGrid3.webp";
+import sports4 from "@/assets/img/sportsGrid4.webp";
+import sportsSteps1 from "@/assets/img/sportsSteps1.webp";
+import sportsSteps2 from "@/assets/img/sportsSteps2.webp";
+import sportsSteps3 from "@/assets/img/sportsSteps3.webp";
+import sportsLegal1 from "@/assets/img/sportsLegal1.webp";
+import sportsLegal2 from "@/assets/img/sportsLegal2.webp";
+import sportsLegal3 from "@/assets/img/sportsLegal3.webp";
+import image1 from "@/assets/img/sportsIcon1.webp";
 </script>
 
 <template>
@@ -31,22 +35,22 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
 
   <div class="flex flex-wrap justify-center items-center gap-5">
     <CardGrid
-      :title="`Football`"
+      :title="`&nbsp;`"
       :duration="1000"
       :imageSrc="sports1"
       :imageSrcMobile="sports1" />
     <CardGrid
-      :title="`Basketball`"
+      :title="`&nbsp;`"
       :duration="1200"
       :imageSrc="sports2"
       :imageSrcMobile="sports2" />
     <CardGrid
-      :title="`Boxing`"
+      :title="`&nbsp;`"
       :duration="1400"
       :imageSrc="sports3"
       :imageSrcMobile="sports3" />
     <CardGrid
-      :title="`Baseball`"
+      :title="`&nbsp;`"
       :duration="1600"
       :imageSrc="sports4"
       :imageSrcMobile="sports4" />
@@ -171,8 +175,8 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="sportsSteps1"
+        :imageSrcMobile="sportsSteps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -218,8 +222,8 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="sportsSteps2"
+        :imageSrcMobile="sportsSteps2">
       </InfoGraphics>
     </div>
   </div>
@@ -230,8 +234,8 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="sportsSteps3"
+        :imageSrcMobile="sportsSteps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -397,8 +401,8 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="sportsLegal1"
+        :imageSrcMobile="sportsLegal1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -434,8 +438,8 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="sportsLegal2"
+        :imageSrcMobile="sportsLegal2">
       </InfoGraphics>
     </div>
   </div>
@@ -446,8 +450,8 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="sportsLegal3"
+        :imageSrcMobile="sportsLegal3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -526,7 +530,7 @@ import imageMobile1 from "@/assets/img/homeImg1.png";
     :duration="1500"
     :speed="0.8"
     :imageSrc="image1"
-    :imageSrcMobile="imageMobile1">
+    :imageSrcMobile="image1">
   </Image>
   <div class="mb-20"></div>
   <Footer></Footer>

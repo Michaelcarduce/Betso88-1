@@ -7,14 +7,17 @@ import CardGrid2 from "@/components/CardGrid2.vue";
 import Footer from "@/components/Footer.vue";
 import FAQs from "@/components/FAQs.vue";
 
-import banner1 from "@/assets/img/banner1.jpg";
-import bannerMobile1 from "@/assets/img/bannerMobile1.jpg";
-import image1 from "@/assets/img/fishing1.jpg";
-import image2 from "@/assets/img/fishing2.jpg";
-import image3 from "@/assets/img/fishing3.jpg";
-import image4 from "@/assets/img/fishing4.jpg";
-import homeImg3 from "@/assets/img/homeImg3.png";
-import sportsSteps from "@/assets/img/sportsSteps.jpg";
+import banner1 from "@/assets/img/fishingBanner1.webp";
+import bannerMobile1 from "@/assets/img/fishingBannerMobile1.webp";
+import image1 from "@/assets/img/fishingGames1.webp";
+import image2 from "@/assets/img/fishingGames2.webp";
+import image3 from "@/assets/img/fishingGames3.webp";
+import image4 from "@/assets/img/fishingGames4.webp";
+import icon1 from "@/assets/img/fishingIcon1.webp";
+import steps1 from "@/assets/img/fishingSteps1.webp";
+import steps2 from "@/assets/img/fishingSteps2.webp";
+import steps3 from "@/assets/img/fishingSteps3.webp";
+import icon2 from "@/assets/img/fishingIcon2.webp";
 
 const faqData = [
   {
@@ -131,8 +134,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="homeImg3"
-        :imageSrcMobile="homeImg3"
+        :imageSrc="icon1"
+        :imageSrcMobile="icon1"
         class="object-cover h-full">
       </Image>
     </div>
@@ -230,8 +233,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps1"
+        :imageSrcMobile="steps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -282,8 +285,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps2"
+        :imageSrcMobile="steps2">
       </InfoGraphics>
     </div>
   </div>
@@ -294,8 +297,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps3"
+        :imageSrcMobile="steps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -481,8 +484,8 @@ const faqData = [
     width="30%"
     :duration="1500"
     :speed="0.8"
-    :imageSrc="homeImg3"
-    :imageSrcMobile="homeImg3">
+    :imageSrc="icon2"
+    :imageSrcMobile="icon2">
   </Image>
   <div class="mb-20"></div>
 

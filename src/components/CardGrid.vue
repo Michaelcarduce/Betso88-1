@@ -170,7 +170,7 @@ onMounted(() => {
   transform: translateX(-50%);
   bottom: 0;
   padding: 40px 0px;
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2); */
   width: 100%;
 }
 .card-title {

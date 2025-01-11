@@ -6,10 +6,12 @@ import Image from "@/components/Image.vue";
 import InfoGraphics from "@/components/InfoGraphics.vue";
 import Footer from "@/components/Footer.vue";
 
-import banner1 from "@/assets/img/banner1.jpg";
-import bannerMobile1 from "@/assets/img/bannerMobile1.jpg";
-import sportsSteps from "@/assets/img/sportsSteps.jpg";
-import homeImg3 from "@/assets/img/homeImg3.png";
+import banner1 from "@/assets/img/liveCasinoBanner1.webp";
+import bannerMobile1 from "@/assets/img/liveCasinoBannerMobile1.webp";
+import icon1 from "@/assets/img/liveCasinoIcon1.webp";
+import steps1 from "@/assets/img/liveCasinoSteps1.webp";
+import steps2 from "@/assets/img/liveCasinoSteps2.webp";
+import steps3 from "@/assets/img/liveCasinoSteps3.webp";
 </script>
 
 <template>
@@ -83,8 +85,8 @@ import homeImg3 from "@/assets/img/homeImg3.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps1"
+        :imageSrcMobile="steps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -125,8 +127,8 @@ import homeImg3 from "@/assets/img/homeImg3.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps2"
+        :imageSrcMobile="steps2">
       </InfoGraphics>
     </div>
   </div>
@@ -137,8 +139,8 @@ import homeImg3 from "@/assets/img/homeImg3.png";
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps3"
+        :imageSrcMobile="steps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -210,8 +212,8 @@ import homeImg3 from "@/assets/img/homeImg3.png";
         width="80%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="homeImg3"
-        :imageSrcMobile="homeImg3"
+        :imageSrc="icon1"
+        :imageSrcMobile="icon1"
         class="object-cover h-full">
       </Image>
     </div>

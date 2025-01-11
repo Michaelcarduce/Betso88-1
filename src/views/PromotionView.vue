@@ -8,10 +8,14 @@ import InfoGraphics from "@/components/InfoGraphics.vue";
 import Footer from "@/components/Footer.vue";
 import FAQs from "@/components/FAQs.vue";
 
-import banner1 from "@/assets/img/bannerLiveCasino1.jpg";
-import bannerMobile1 from "@/assets/img/bannerLiveCasinoMobile1.jpg";
+import banner1 from "@/assets/img/liveCasinoBanner1.webp";
+import bannerMobile1 from "@/assets/img/liveCasinoBannerMobile1.webp";
+import icon1 from "@/assets/img/promotionIcon1.webp";
+import steps1 from "@/assets/img/promotionSteps1.webp";
+import steps2 from "@/assets/img/promotionSteps2.webp";
+import steps3 from "@/assets/img/promotionSteps3.webp";
+import steps4 from "@/assets/img/promotionSteps4.webp";
 import homeImg3 from "@/assets/img/livecasinoModel1.png";
-import sportsSteps from "@/assets/img/sportsSteps.jpg";
 
 const faqData = [
   {
@@ -142,8 +146,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps1"
+        :imageSrcMobile="steps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -185,8 +189,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps2"
+        :imageSrcMobile="steps2">
       </InfoGraphics>
     </div>
   </div>
@@ -197,8 +201,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps3"
+        :imageSrcMobile="steps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -241,8 +245,8 @@ const faqData = [
         width="100%"
         :duration="1500"
         :speed="0.8"
-        :imageSrc="sportsSteps"
-        :imageSrcMobile="sportsSteps">
+        :imageSrc="steps4"
+        :imageSrcMobile="steps4">
       </InfoGraphics>
     </div>
   </div>
@@ -540,8 +544,8 @@ const faqData = [
     width="20%"
     :duration="1500"
     :speed="0.8"
-    :imageSrc="homeImg3"
-    :imageSrcMobile="homeImg3">
+    :imageSrc="icon1"
+    :imageSrcMobile="icon1">
   </Image>
   <div class="mb-20"></div>
 

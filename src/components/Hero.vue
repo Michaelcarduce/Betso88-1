@@ -4,11 +4,9 @@ import { defineProps } from "vue";
 defineProps({
   title: {
     type: String,
-    default: "Betso88",
   },
   subTitle: {
     type: String,
-    default: "Betso88 Descriptions here",
   },
 });
 </script>
