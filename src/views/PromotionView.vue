@@ -15,7 +15,11 @@ import steps1 from "@/assets/img/promotionSteps1.webp";
 import steps2 from "@/assets/img/promotionSteps2.webp";
 import steps3 from "@/assets/img/promotionSteps3.webp";
 import steps4 from "@/assets/img/promotionSteps4.webp";
-import homeImg3 from "@/assets/img/livecasinoModel1.png";
+import promotionCard1 from "@/assets/img/promotionCard1.webp";
+import promotionCard2 from "@/assets/img/promotionCard2.webp";
+import promotionCard3 from "@/assets/img/promotionCard3.webp";
+import promotionCard4 from "@/assets/img/promotionCard4.webp";
+import promotionCard5 from "@/assets/img/promotionCard5.webp";
 
 const faqData = [
   {
@@ -266,40 +270,40 @@ const faqData = [
         Bet88 VIP Slots has selected a variety of promotions that are worth up to 100 million, this gives players the opportunity to maximize their earnings and utilize additional funds. Here is a more in depth examination of the promotional scheme:
         `"
     :duration="1500"
-    :imageSrc="homeImg3"
-    :imageSrcMobile="homeImg3" />
+    :imageSrc="promotionCard1"
+    :imageSrcMobile="promotionCard1" />
 
   <PromotionBanner
     width="80%"
     :title="`Welcome Bonus`"
     :description="`Bet88 VIP Slots provides a generous bonus for new players. After making their first deposit, players are given a bonus that can greatly increase their starting bankroll. The welcome bonus is typically composed of a percentage that is matched with the deposit. This allows players to pay a set amount and receive a bonus of the same or greater value. For example, a 100% match bonus on a deposit of $50,000 would increase the player's initial funds by $200,000.`"
     :duration="1500"
-    :imageSrc="homeImg3"
-    :imageSrcMobile="homeImg3" />
+    :imageSrc="promotionCard2"
+    :imageSrcMobile="promotionCard2" />
 
   <PromotionBanner
     width="80%"
     :title="`Deposit and Reload Bonuses`"
     :description="`For players who return to the site, Bet88 VIP Slots offers a deposit and reloading bonus. These bonuses are intended to incentivize continued play, they provide extra funds with every deposit. Reload rewards are often expressed as a percentage, such as a 50% or 75% match on subsequent deposits, which increases the amount of money available to players as they continue to utilize the platform.`"
     :duration="1500"
-    :imageSrc="homeImg3"
-    :imageSrcMobile="homeImg3" />
+    :imageSrc="promotionCard3"
+    :imageSrcMobile="promotionCard3" />
 
   <PromotionBanner
     width="80%"
     :title="`Free Spins and Cashback Benefits`"
     :description="`Bet88 VIP Slots also benefits its players with free spins and cashback on popular slots. Free spins offer the opportunity to attempt your fortune on select games of slots without depositing funds, while cashback offers offer a portion of your losses to your account. These attributes make Bet88 VIP Slots a versatile platform that benefits both winning and losing players.`"
     :duration="1500"
-    :imageSrc="homeImg3"
-    :imageSrcMobile="homeImg3" />
+    :imageSrc="promotionCard4"
+    :imageSrcMobile="promotionCard4" />
 
   <PromotionBanner
     width="80%"
     :title="`VIP and Recommended Program`"
     :description="`The Bet88 VIP and Loyalty Program is one of the most attractive features of the website. With different tiers of VIP, dedicated players can receive exclusive benefits, including increased cash-back, quicker withdrawals, personal account managers, and access to special events. As players move up through the tiers, the value of the rewards increases, with top-tier members enjoying the entirety of Bet88's 100 million promotional offering.`"
     :duration="1500"
-    :imageSrc="homeImg3"
-    :imageSrcMobile="homeImg3" />
+    :imageSrc="promotionCard5"
+    :imageSrcMobile="promotionCard5" />
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
