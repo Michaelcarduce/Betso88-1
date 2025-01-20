@@ -56,14 +56,14 @@ onUnmounted(() => {
         </RouterLink>
         <p
           class="text-center mb-5 text-ml sm:text-m md:text-l lg:text-xl text-white">
-          Hassle-Free Login Steps at Betso88 Casino: Head over to the
+          Hassle-Free Login Steps at Panalobet Casino: Head over to the
           <a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold"
-            >Betso88 Casino website</a
+            >Panalobet Casino website</a
           >
           and locate the “<a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold"
             >Login</a
           >” button.
@@ -109,19 +109,19 @@ onUnmounted(() => {
         <div class="text-center text-m sm:text-m md:text-ml lg:text-l">
           <p class="text-white font-bold mb-5">Quick Navigation</p>
           <a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text hover:scale-105 transition-transform duration-200"
-            >Betso88 Website</a
+            >Panalobet Website</a
           ><br />
           <a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text hover:scale-105 transition-transform duration-200"
-            >Betso88 Casino</a
+            >Panalobet Casino</a
           ><br />
           <a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text hover:scale-105 transition-transform duration-200"
-            >Betso88 Casino Website</a
+            >Panalobet Casino Website</a
           ><br />
         </div>
       </div>
@@ -129,19 +129,19 @@ onUnmounted(() => {
         <div class="text-center text-m sm:text-m md:text-ml lg:text-l">
           <p class="text-white font-bold mb-5">Services</p>
           <a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text hover:scale-105 transition-transform duration-200"
-            >Betso88 Website</a
+            >Panalobet Website</a
           ><br />
           <a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text hover:scale-105 transition-transform duration-200"
-            >Betso88 Casino</a
+            >Panalobet Casino</a
           ><br />
           <a
-            href="https://Betso88.com"
+            href="https://Panalobet.com"
             class="bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text hover:scale-105 transition-transform duration-200"
-            >Betso88 Casino Website</a
+            >Panalobet Casino Website</a
           ><br />
         </div>
       </div>

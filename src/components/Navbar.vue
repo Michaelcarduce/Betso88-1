@@ -450,7 +450,7 @@ const navLinks = [
       </div>
 
       <a
-        href="https://www.betso88.so/"
+        href="https://www.Panalobet.com/"
         target="_blank"
         :class="[
           'border-[2px] border-[#eec668] bg-gradient-to-t from-[#b8860b] via-[#ffd700] to-[#fffacd] shadow-[0px_0px_3px_2px_#b58c23,0px_0px_2px_2px_#ffd700_inset] rounded-[7px] font-semibold text-shadow-md px-6 py-2 cursor-pointer transition-all transform duration-300 hover:scale-105 hover:brightness-110 active:scale-95 flex items-center justify-center',

@@ -21,7 +21,7 @@ import icon2 from "@/assets/img/fishingIcon2.webp";
 
 const faqData = [
   {
-    question: "Q1: What are the main ways to win at Betso88 Fishing?",
+    question: "Q1: What are the main ways to win at Panalobet Fishing?",
     answer:
       "Use the right strategy, target the high-point fish, and study the fish's movements.",
   },
@@ -33,7 +33,7 @@ const faqData = [
   {
     question: "Q3: Does it have a mobile app?",
     answer:
-      "Yes, Betso88 has a mobile-friendly version that is easy to access with a smartphone.",
+      "Yes, Panalobet has a mobile-friendly version that is easy to access with a smartphone.",
   },
 ];
 </script>
@@ -47,8 +47,8 @@ const faqData = [
     :imageSrcMobile="bannerMobile1" />
   <Hero
     class="mb-10"
-    title="Betso88 online fishing games community | Betso88 live"
-    subTitle="Betso88 Fishing games provide a unique fishing experience using technology and graphics that show the realistic sea and different types of fish." />
+    title="Panalobet online fishing games community | Panalobet live"
+    subTitle="Panalobet Fishing games provide a unique fishing experience using technology and graphics that show the realistic sea and different types of fish." />
 
   <div class="flex flex-wrap justify-center items-center gap-2 mb-20">
     <CardGrid2 :duration="1200" :imageSrc="image1" :imageSrcMobile="image1" />
@@ -59,24 +59,24 @@ const faqData = [
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Betso88 Fishing: Online Fishing Games Community in the Philippines
+    Panalobet Fishing: Online Fishing Games Community in the Philippines
   </h2>
   <p class="text-center text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Betso88 Fishing is a featured game on Betso88, a well-known online casino
-    and betting platform in the Philippines. These fishing games are known for
-    providing fun, adrenaline, and the chance to win big prizes. For Filipinos
-    looking for fun and exciting entertainment, Betso88 Fishing is one of the
-    top-picks.
+    Panalobet Fishing is a featured game on Panalobet, a well-known online
+    casino and betting platform in the Philippines. These fishing games are
+    known for providing fun, adrenaline, and the chance to win big prizes. For
+    Filipinos looking for fun and exciting entertainment, Panalobet Fishing is
+    one of the top-picks.
   </p>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    What is Betso88 and Why Are Online Fishing Games Popular?
+    What is Panalobet and Why Are Online Fishing Games Popular?
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Betso88 is a premier online gaming platform in the Philippines known for
+    Panalobet is a premier online gaming platform in the Philippines known for
     various games such as slots, sports betting, and above all, online fishing
-    games. Betso88 Fishing games provide a unique fishing experience using
+    games. Panalobet Fishing games provide a unique fishing experience using
     technology and graphics that show the realistic sea and different types of
     fish. Apart from being fun, every player has great potential to earn real
     money through cash rewards and jackpots.
@@ -112,20 +112,20 @@ const faqData = [
       class="bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold"
       >• With Social Interaction :</strong
     >
-    Betso88 fishing games also feature a multiplayer mode where you can compete
-    with other players.
+    Panalobet fishing games also feature a multiplayer mode where you can
+    compete with other players.
   </p>
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Betso88 Fishing Game Types and Their Characteristics
+    Panalobet Fishing Game Types and Their Characteristics
   </h2>
 
   <div class="flex flex-col md:flex-row mt-10 gap-4">
     <div class="md:w-1/2 flex items-center md:pl-20 lg:pl-20">
       <p class="text-ml sm:text-m md:text-l lg:text-xl text-white">
-        Betso88 Fishing has different games that every player can try. Each game
-        has its own characteristics and style that provide a more enjoyable
+        Panalobet Fishing has different games that every player can try. Each
+        game has its own characteristics and style that provide a more enjoyable
         experience.
       </p>
     </div>
@@ -143,7 +143,7 @@ const faqData = [
   <!-- <div class="flex flex-col md:flex-row mt-10 gap-10">
     <div class="md:w-1/2">
       <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-        Betso88 Fishing has different games that every player can try. Each game
+        Panalobet Fishing has different games that every player can try. Each game
         has its own characteristics and style that provide a more enjoyable
         experience.
       </p>
@@ -161,7 +161,7 @@ const faqData = [
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Popular Types of Fishing Games in Betso88
+    Popular Types of Fishing Games in Panalobet
   </h2>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -187,13 +187,13 @@ const faqData = [
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    This is one of the most exciting types of fishing game in Betso88 where
+    This is one of the most exciting types of fishing game in Panalobet where
     there are big bosses or special types of fish that give a big jackpot.
   </p>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Features of Betso88 Fishing
+    Features of Panalobet Fishing
   </h2>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
@@ -224,7 +224,7 @@ const faqData = [
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-10 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    How to Sign Up and Start Playing Betso88 Fishing
+    How to Sign Up and Start Playing Panalobet Fishing
   </h2>
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
@@ -248,7 +248,7 @@ const faqData = [
           Account Registration:
         </h4>
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
-          • Open the Betso88 website and click on “Sign Up” or “Register.”
+          • Open the Panalobet website and click on “Sign Up” or “Register.”
         </p>
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
           • Provide the required information such as name, email address, and
@@ -275,7 +275,7 @@ const faqData = [
         </h4>
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
           After registering, you need to deposit money into your account to buy
-          coins or bullets to use for fishing. Betso88 accepts major payment
+          coins or bullets to use for fishing. Panalobet accepts major payment
           methods in the Philippines such as GCash, PayMaya, and bank transfers.
         </p>
       </div>
@@ -321,15 +321,15 @@ const faqData = [
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Strategies and Tips to Win at Betso88 Fishing
+    Strategies and Tips to Win at Panalobet Fishing
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    In Betso88 Fishing, the right strategy is important to have a greater chance
-    of winning and getting the jackpot.
+    In Panalobet Fishing, the right strategy is important to have a greater
+    chance of winning and getting the jackpot.
   </p>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
-    Basic Tips for playing Betso88 Fishing
+    Basic Tips for playing Panalobet Fishing
   </h3>
   <h4
     class="text-xl sm:text-xl md:text-1xl lg:text-2xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 bg-gradient-to-r from-orange-100 to-yellow-100 text-transparent bg-clip-text font-bold">
@@ -345,8 +345,8 @@ const faqData = [
   </h4>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 text-white">
-    At Betso88 Fishing, there are different types of gun or ammunition suitable
-    for different sizes of fish.
+    At Panalobet Fishing, there are different types of gun or ammunition
+    suitable for different sizes of fish.
   </p>
   <h4
     class="text-xl sm:text-xl md:text-1xl lg:text-2xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 bg-gradient-to-r from-orange-100 to-yellow-100 text-transparent bg-clip-text font-bold">
@@ -360,7 +360,7 @@ const faqData = [
 
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
-    Advanced Strategy to Gain more Odd in Betso88 Fishing Games
+    Advanced Strategy to Gain more Odd in Panalobet Fishing Games
   </h3>
   <h4
     class="text-xl sm:text-xl md:text-1xl lg:text-2xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 bg-gradient-to-r from-orange-100 to-yellow-100 text-transparent bg-clip-text font-bold">
@@ -395,7 +395,7 @@ const faqData = [
     Responsible Gaming: How to Manage Your Budget and Risk
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Playing Betso88 Fishing should only be considered a hobby. Here are some
+    Playing Panalobet Fishing should only be considered a hobby. Here are some
     ways to make sure you're being a responsible player.
   </p>
   <h3
@@ -413,7 +413,7 @@ const faqData = [
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Use Betso88 tools for daily or weekly spending limits. There are settings
+    Use Panalobet tools for daily or weekly spending limits. There are settings
     that will help you avoid over-betting.
   </p>
   <h3
@@ -428,12 +428,12 @@ const faqData = [
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Betso88 Community: Interact with Fellow Players
+    Panalobet Community: Interact with Fellow Players
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    One of the exciting parts of Betso88 Fishing is the interaction with the
+    One of the exciting parts of Panalobet Fishing is the interaction with the
     community of fellow players. Here are some ways to get involved in the
-    Betso88 community.
+    Panalobet community.
   </p>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -450,8 +450,8 @@ const faqData = [
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    You can invite friends to Betso88 Fishing, play together, and work together
-    to catch big fish or Bosses.
+    You can invite friends to Panalobet Fishing, play together, and work
+    together to catch big fish or Bosses.
   </p>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -459,24 +459,24 @@ const faqData = [
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Betso88 regularly has events and promos exclusively for fishing games. Here
-    there are extra rewards and bonuses available for active players.
+    Panalobet regularly has events and promos exclusively for fishing games.
+    Here there are extra rewards and bonuses available for active players.
   </p>
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    FAQs (Frequently Asked Questions) about Betso88 Fishing
+    FAQs (Frequently Asked Questions) about Panalobet Fishing
   </h2>
   <FAQs :faqs="faqData" />
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-32 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    How to Become an Expert in Betso88 Fishing
+    How to Become an Expert in Panalobet Fishing
   </h2>
   <p
     class="text-center text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white px-10 md:px-20 lg:px-40">
-    Betso88 Fishing is not just a game but also an opportunity to win prizes and
-    interact with the community of fellow players. With the right strategy,
+    Panalobet Fishing is not just a game but also an opportunity to win prizes
+    and interact with the community of fellow players. With the right strategy,
     gaming discipline, and active community participation, you can become an
     expert in this game.
   </p>

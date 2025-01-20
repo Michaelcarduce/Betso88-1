@@ -30,8 +30,8 @@ import image1 from "@/assets/img/sportsIcon1.webp";
     :imageSrcMobile="bannerMobile1" />
   <Hero
     class="mb-32"
-    title="Betting at Betso88 Sports Online Casino of the Philippines"
-    subTitle="Betso88 is one of the best legal online casinos in the Philippines. Enjoy a wide range of games, including slots, Sports Betting" />
+    title="Betting at Panalobet Sports Online Casino of the Philippines"
+    subTitle="Panalobet is one of the best legal online casinos in the Philippines. Enjoy a wide range of games, including slots, Sports Betting" />
 
   <div class="flex flex-wrap justify-center items-center gap-5">
     <CardGrid
@@ -58,10 +58,10 @@ import image1 from "@/assets/img/sportsIcon1.webp";
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    What is Betso88 Sports?
+    What is Panalobet Sports?
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Betso88 Sports is one of the most popular online casino and sports betting
+    Panalobet Sports is one of the most popular online casino and sports betting
     platforms in the Philippines. It offers a wide range of casino games, sports
     betting and e-sports, making it an ideal place for players looking for both
     entertainment and the opportunity to win real money.
@@ -85,7 +85,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </p>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
-    Betso88 Sports Features and Services
+    Panalobet Sports Features and Services
   </h3>
   <h4
     class="text-xl sm:text-xl md:text-1xl lg:text-2xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 bg-gradient-to-r from-orange-100 to-yellow-100 text-transparent bg-clip-text font-bold">
@@ -93,10 +93,10 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </h4>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 text-white">
-    At Betso88, you can bet on various sports such as basketball (PBA and NBA),
-    soccer, tennis, and boxing. There are many options for every player, from
-    small bets to big bets, depending on your experience and knowledge of the
-    game. Additionally, there are in-play or live betting options that allow
+    At Panalobet, you can bet on various sports such as basketball (PBA and
+    NBA), soccer, tennis, and boxing. There are many options for every player,
+    from small bets to big bets, depending on your experience and knowledge of
+    the game. Additionally, there are in-play or live betting options that allow
     players to place bets while the game is happening, which is more engaging
     for many Filipinos.
   </p>
@@ -106,11 +106,11 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </h4>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 text-white">
-    Betso88 provides an immersive live casino experience to players through
+    Panalobet provides an immersive live casino experience to players through
     games such as blackjack, roulette, and baccarat. These games come with live
     dealers that bring a real casino ambiance to your screen, as if you were
-    playing in the casino itself. This is one of the features that make Betso88
-    popular among Filipinos.
+    playing in the casino itself. This is one of the features that make
+    Panalobet popular among Filipinos.
   </p>
   <h4
     class="text-xl sm:text-xl md:text-1xl lg:text-2xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 bg-gradient-to-r from-orange-100 to-yellow-100 text-transparent bg-clip-text font-bold">
@@ -118,7 +118,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </h4>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 text-white">
-    For those who love the classic casino experience, Betso88 has a large
+    For those who love the classic casino experience, Panalobet has a large
     selection of slots and video poker games. Each game has different themes and
     jackpot options that provide unique fun and excitement.
   </p>
@@ -128,7 +128,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </h4>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 text-white">
-    Betso88 also focused on the continued growth of e-sports betting in the
+    Panalobet also focused on the continued growth of e-sports betting in the
     country. This includes popular games like Dota 2, League of Legends (LoL),
     and Valorant. Many Filipino e-sports enthusiasts enjoy betting on their
     favorite teams and players.
@@ -136,7 +136,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Benefits of Using Betso88
+    Benefits of Using Panalobet
   </h2>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
@@ -166,7 +166,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-10 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    How to Sign Up and Start Playing at Betso88 Sports
+    How to Sign Up and Start Playing at Panalobet Sports
   </h2>
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
@@ -190,10 +190,10 @@ import image1 from "@/assets/img/sportsIcon1.webp";
           Account Creation:
         </h4>
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
-          To get started, simply go to the Betso88 website and click “Sign Up.”
-          Provide the required information such as your name, email address, and
-          phone number. Make sure the details are correct for easier and faster
-          account verification.
+          To get started, simply go to the Panalobet website and click “Sign
+          Up.” Provide the required information such as your name, email
+          address, and phone number. Make sure the details are correct for
+          easier and faster account verification.
         </p>
       </div>
     </div>
@@ -212,8 +212,9 @@ import image1 from "@/assets/img/sportsIcon1.webp";
         </h4>
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
           After signing up, you need to deposit funds into your account. There
-          are various options such as GCash, PayMaya, and bank transfer. Betso88
-          allows quick and secure depositing of money for more seamless gaming.
+          are various options such as GCash, PayMaya, and bank transfer.
+          Panalobet allows quick and secure depositing of money for more
+          seamless gaming.
         </p>
       </div>
     </div>
@@ -321,13 +322,13 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Betso88 provides tools to set betting limits and playing time. These tools
+    Panalobet provides tools to set betting limits and playing time. These tools
     help players avoid overplaying and ensure responsible betting.
   </p>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Betso88 Sports Promotions and Bonuses
+    Panalobet Sports Promotions and Bonuses
   </h2>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -335,7 +336,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Betso88 offers a welcome bonus for new members. It usually consists of a
+    Panalobet offers a welcome bonus for new members. It usually consists of a
     percentage of the initial deposit that can be used as additional funds for
     playing.
   </p>
@@ -354,9 +355,9 @@ import image1 from "@/assets/img/sportsIcon1.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    For members who have friends or family who want to try the platform, Betso88
-    has a referral program that provides an additional bonus for each successful
-    referral.
+    For members who have friends or family who want to try the platform,
+    Panalobet has a referral program that provides an additional bonus for each
+    successful referral.
   </p>
 
   <h2
@@ -428,8 +429,8 @@ import image1 from "@/assets/img/sportsIcon1.webp";
       </p>
       <div class="bg-purple-900/10 w-full rounded-[4px] px-5 py-5">
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
-          Betso88 uses advanced encryption technology to ensure the security of
-          players' information.
+          Panalobet uses advanced encryption technology to ensure the security
+          of players' information.
         </p>
       </div>
     </div>
@@ -461,7 +462,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
       </p>
       <div class="bg-purple-900/10 w-full rounded-[4px] px-5 py-5">
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
-          Betso88 has strict anti-cheating policies to ensure every player has
+          Panalobet has strict anti-cheating policies to ensure every player has
           an equal chance to win.
         </p>
       </div>
@@ -470,7 +471,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Popular Sports to Bet on Betso88
+    Popular Sports to Bet on Panalobet
   </h2>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
@@ -511,11 +512,11 @@ import image1 from "@/assets/img/sportsIcon1.webp";
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-32 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Betting Strategically at Betso88 Sports
+    Betting Strategically at Panalobet Sports
   </h2>
   <p
     class="text-center text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white px-10 md:px-20 lg:px-40">
-    All in all, Betso88 Sports is an innovative platform that provides many
+    All in all, Panalobet Sports is an innovative platform that provides many
     options to players in the Philippines.
   </p>
   <p

@@ -20,20 +20,20 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
     :imageSrc="banner1"
     :imageSrcMobile="bannerMobile1" />
   <Hero
-    title="Betso88 | Play the Hottest and Most Exciting Casino Slots and Win ₱57,888"
-    subTitle="2025 — Join Betso88 to play the hottest casino games and win up to ₱57,888. Enjoy thrilling gameplay, great security and big prizes now!" />
+    title="Panalobet | Play the Hottest and Most Exciting Casino Slots and Win ₱57,888"
+    subTitle="2025 — Join Panalobet to play the hottest casino games and win up to ₱57,888. Enjoy thrilling gameplay, great security and big prizes now!" />
 
   <p class="text-center text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
     Online casino gaming is one of the fastest growing industries in the
     Philippines. Among the many online platforms that offer exciting games,
-    Betso88 stands out with its fun-filled slots, beautiful graphics, and great
-    odds of winning up to ₱57,888! In this article, we will examine why Betso88
-    has become so popular and how you can play the hottest and most exciting
-    casino slots on their platform.
+    Panalobet stands out with its fun-filled slots, beautiful graphics, and
+    great odds of winning up to ₱57,888! In this article, we will examine why
+    Panalobet has become so popular and how you can play the hottest and most
+    exciting casino slots on their platform.
   </p>
   <p
     class="text-center text-ml sm:text-m md:text-l lg:text-xl mb-5 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold">
-    Betso88 - The best online real money casino in the Philippines
+    Panalobet - The best online real money casino in the Philippines
   </p>
   <Image
     width="30%"
@@ -45,24 +45,24 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    What is Betso88?
+    What is Panalobet?
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Betso88 slots is an online casino platform known in the Philippines and
+    Panalobet slots is an online casino platform known in the Philippines and
     throughout Asia. It has a wide collection of casino games, from card games
     like blackjack and poker, to popular slots. It is one of the platforms that
     allows Filipino players to play their favorite games safely, reliably, and
     full of fun.
   </p>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Betso88 slots offers cutting-edge technology that provides a realistic
+    Panalobet slots offers cutting-edge technology that provides a realistic
     gaming experience. From high-quality graphics to thrilling sound effects,
-    every game at Betso88 slots is designed to be fun and rewarding.
+    every game at Panalobet slots is designed to be fun and rewarding.
   </p>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Why Choose Betso88 Slots?
+    Why Choose Panalobet Slots?
   </h2>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -70,8 +70,8 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Betso88 has a simple interface that is easy to use, even for beginners. You
-    don't need much technical knowledge to navigate the platform and start a
+    Panalobet has a simple interface that is easy to use, even for beginners.
+    You don't need much technical knowledge to navigate the platform and start a
     game. In just a few minutes, you can start playing your favorite slot game!
   </p>
   <h3
@@ -80,9 +80,9 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Betso88 has a wide selection of slot games. Whether you're looking for
+    Panalobet has a wide selection of slot games. Whether you're looking for
     classic slots, modern slots with bonus rounds, or progressive slots with a
-    jackpot, you'll find it all at Betso88. The different themes and styles of
+    jackpot, you'll find it all at Panalobet. The different themes and styles of
     the game provide different experiences and excitement.
   </p>
   <h3
@@ -91,10 +91,10 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    One of the main reasons why many people play Betso88 slots is because of its
-    huge prizes. Each game has a different payout, and some have a chance to win
-    up to ₱57,888 or more. This is no ordinary game; This is your chance to win
-    big!
+    One of the main reasons why many people play Panalobet slots is because of
+    its huge prizes. Each game has a different payout, and some have a chance to
+    win up to ₱57,888 or more. This is no ordinary game; This is your chance to
+    win big!
   </p>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -102,24 +102,24 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Betso88 uses advanced security to keep players' information safe. They have
-    SSL encryption technology that protects every transaction and information.
-    Because of this, you can play without any worries.
+    Panalobet uses advanced security to keep players' information safe. They
+    have SSL encryption technology that protects every transaction and
+    information. Because of this, you can play without any worries.
   </p>
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Steps to Getting Started with Betso88 Slots
+    Steps to Getting Started with Panalobet Slots
   </h2>
 
   <div class="flex flex-wrap justify-center items-center gap-5">
     <AnimatedCard :duration="1000" speed="ease-out">
       <h4
         class="text-center text-xl sm:text-xl md:text-1xl lg:text-2xl bg-gradient-to-r from-yellow-100 to-red-200 text-transparent bg-clip-text font-bold mb-2">
-        Sign Up to Betso88:
+        Sign Up to Panalobet:
       </h4>
       <p class="text-center text-ml sm:text-m md:text-l lg:text-xl text-white">
-        Signing up to Betso88 is quick and easy. You just need to provide some
+        Signing up to Panalobet is quick and easy. You just need to provide some
         basic information and create an account.
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -132,7 +132,7 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
       </h4>
       <p class="text-center text-ml sm:text-m md:text-l lg:text-xl text-white">
         After signing up, you need to make a deposit to start playing your
-        favorite game. Betso88 accepts various payment methods, such as credit
+        favorite game. Panalobet accepts various payment methods, such as credit
         cards, bank transfers, and e-wallets.
       </p>
     </AnimatedCard>
@@ -164,10 +164,10 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Most Popular Slot Games at Betso88
+    Most Popular Slot Games at Panalobet
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Betso88 offers many slots that feature different themes and gameplay
+    Panalobet offers many slots that feature different themes and gameplay
     mechanics. Here are some of the most popular games you can try:
   </p>
   <h3
@@ -199,13 +199,13 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
     SlotsProgressive jackpot slots offer the biggest prizes. With each player's
     bet, the jackpot prize increases until someone gets a winning combination.
-    At Betso88, there are games where the jackpot reaches millions, so it's
+    At Panalobet, there are games where the jackpot reaches millions, so it's
     worth trying them out!
   </p>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Tips and Strategies for Playing Betso88 Slots
+    Tips and Strategies for Playing Panalobet Slots
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
     Playing slots is based on luck, but there are some tips that can help
@@ -227,7 +227,7 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    At Betso88, there are bonuses and promotions that players can use. For
+    At Panalobet, there are bonuses and promotions that players can use. For
     example, a welcome bonus provides extra funds to new players.
   </p>
   <h3
@@ -253,7 +253,7 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Why Betso88 is the Best Choice for Online Slots?
+    Why Panalobet is the Best Choice for Online Slots?
   </h2>
   <Banner
     width="80%"
@@ -266,16 +266,16 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
     Conclusion
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Playing at Betso88 Slots is a unique experience for Filipino players. With
+    Playing at Panalobet Slots is a unique experience for Filipino players. With
     so many slot games to choose from, each one has a unique theme and features
     that provide excitement and the opportunity to win big. Best of all, you
     have a chance to win a big prize that can reach ₱57,888 or more!
   </p>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-20 text-white">
     If you are looking for a secure, safe, and exciting platform for online
-    casino gaming, Betso88 slots is the answer. Don't hesitate, join Betso88 and
-    discover endless fun and the possibility of winning huge prizes. Remember,
-    gaming should be done responsibly and for fun.
+    casino gaming, Panalobet slots is the answer. Don't hesitate, join Panalobet
+    and discover endless fun and the possibility of winning huge prizes.
+    Remember, gaming should be done responsibly and for fun.
   </p>
   <Footer></Footer>
 </template>
