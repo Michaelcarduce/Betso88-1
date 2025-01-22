@@ -5,7 +5,9 @@ import SlotsView from "@/views/SlotsView.vue";
 import FishingView from "@/views/FishingView.vue";
 import LiveCasinoView from "@/views/LiveCasinoView.vue";
 import DepositView from "@/views/DepositView.vue";
-import Promotionview from "@/views/PromotionView.vue";
+import PromotionView from "@/views/PromotionView.vue";
+import BlogsView from "@/views/BlogsView.vue";
+import BlogPostsView from "@/views/BlogPostsView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 
 const router = createRouter({
@@ -44,7 +46,18 @@ const router = createRouter({
     {
       path: "/promotion",
       name: "Promotion",
-      component: Promotionview,
+      component: PromotionView,
+    },
+    {
+      path: "/blogs",
+      name: "Blogs",
+      component: BlogsView,
+    },
+    {
+      path: "/blogs/:slug",
+      name: "BlogPosts",
+      component: BlogPostsView,
+      props: true,
     },
     {
       path: "/:catchAll(.*)",

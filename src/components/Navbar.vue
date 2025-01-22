@@ -370,20 +370,27 @@ const toggleMenu = () => {
 
 <!-- New Code simplier -->
 <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted, computed } from "vue";
 import { RouterLink, useRoute } from "vue-router";
 import logo from "@/assets/img/logo.png";
+import blogs from "@/miscellaneous/blogs/BlogDataSource.js";
 
 const isScrolled = ref(false);
 const isMenuOpen = ref(false);
 const route = useRoute();
+const blogLinks = ref([]);
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 10;
 };
 
-onMounted(() => {
+onMounted(async () => {
   window.addEventListener("scroll", handleScroll);
+  const blogs = await getAllBlogs(); // Fetch blog data
+  blogLinks.value = blogs.map((blog) => ({
+    to: `/blogs/${blog.slug}`, // Construct blog post URLs
+    label: blog.title,
+  }));
 });
 
 onUnmounted(() => {
@@ -406,7 +413,22 @@ const navLinks = [
   { to: "/live-casino", label: "Live Casino" },
   { to: "/deposit", label: "Deposit" },
   { to: "/promotion", label: "Promotion" },
+  { to: "/blogs", label: "Blogs", isBlogParent: true },
+  ...blogLinks.value,
 ];
+
+// Computed property for active link styling
+const activeLinkClass = computed(() => (link) => {
+  if (link.isBlogParent) {
+    return route.path.startsWith("/blogs")
+      ? "bg-yellow-400 text-black font-bold"
+      : "text-white hover:text-black";
+  } else if (route.path === link.to) {
+    return "bg-yellow-400 text-black font-bold";
+  } else {
+    return "text-white hover:text-black";
+  }
+});
 </script>
 
 <template>
@@ -440,9 +462,7 @@ const navLinks = [
           :to="link.to"
           :class="[
             'flex items-center whitespace-nowrap rounded-md px-3 py-2 hover:bg-yellow-400 transform transition-transform duration-200 hover:scale-105',
-            route.path === link.to
-              ? 'bg-yellow-400 text-black font-bold'
-              : 'text-white hover:text-black',
+            activeLinkClass(link), // Use the computed property here
           ]"
           @click="closeMenu">
           {{ link.label }}
@@ -514,3 +534,5 @@ const navLinks = [
   }
 }
 </style>
+
+<!-- New Code with Blog Posts -->
