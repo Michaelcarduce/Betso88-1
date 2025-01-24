@@ -191,6 +191,7 @@ onMounted(() => {
 
 <style scoped>
 .banner-container {
+  width: 100%;
   position: relative;
   border-radius: 10px;
   display: flex;

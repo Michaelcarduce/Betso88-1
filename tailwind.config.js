@@ -13,6 +13,11 @@ export default {
         deepPurple: "#1A1823",
         midnightGlass: "rgba(35, 32, 47, 0.9)",
       },
+      width: {
+        "2/10": "20%",
+        "6/10": "60%",
+        "2/10": "20%",
+      },
     },
   },
   variants: {

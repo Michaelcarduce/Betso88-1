@@ -1,148 +1,141 @@
 const blogs = [
   {
     id: 1,
-    title: "First Blog Title Sample Only For Testing and Building Purposes ",
+    title: "First Blog Title Sample - For Testing and Building Purposes ",
     description:
-      "Becoming unconventional in online commercial gaming industry is tantamount to bravery for taking a different path where others do not dare to go...",
-    slug: "blog-title-slug",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat",
+    slug: "blog-title-slug1",
     buttonText: "Read More ➤",
-    link: "/blogs/blog-title-slug",
-    image: "img/sample.webp",
+    link: "/blogs/blog-title-slug1",
+    image: "/public/img/sample.webp",
     Author: "Betso88 Writer",
     Date: "January 4, 2024",
     content: `
-      <p class="descriptions colorRegShadow textAlignmentLeft"><a class="colorPri" href="https://example.com" target="_blank">Banglabet88</a> has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <div class="bonusButtonContainer"></div>
-      <h2 class="heading2 textAlignmentLeft colorSec">Heading2</h2>
-      <picture class="img_fit mtb20">
-        <source media="(min-width: 768px)" srcSet="/assets/blog1.jpg" />
-        <img src="/assets/blog1.jpg" alt={blog.title} class="imageBlogSub" />
+      <p class="text-paragraph"><a class="text-anchor" href="https://example.com" target="_blank"><span class="target">Lorem ipsum dolor</span></a>  sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="text-bonusButtonContainer"></div>
+      <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
+      <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <picture class="blog-pic">
+        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
+        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
-      <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <ul class="mlr20">
+      <ul class="px-4">
         <li>
-          <h3 class="heading3 textAlignmentLeft colorSec">Heading3</h3>
-          <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-          <ul class="mlr20">
+          <div class="target"><h3 class="text-heading3">Heading3 Heading3 Heading3</h3></div>
+          <p class="text-paragraph"><span class="target">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <ul class="px-4">
             <li>
-              <h4 class="heading4 textAlignmentLeft colorSec">Heading4</h4>
-              <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </li>
+            <li>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="target"><h3 class="text-heading3">Heading3 Heading3 Heading3</h3></div>
+          <p class="text-paragraph"><span class="target">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <ul class="px-4">
+            <li>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </li>
           </ul>
         </li>
       </ul>
-        <div class="bonusButtonContainer"></div>
-
+      <div class="text-bonusButtonContainer"></div>
+      <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
+      <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <picture class="blog-pic">
+        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
+        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+      </picture>
+      <ul class="px-4">
+        <li>
+          <div class="target"><h3 class="text-heading3">Heading3 Heading3 Heading3</h3></div>
+          <p class="text-paragraph"><span class="target">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <ul class="px-4">
+            <li>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
     `,
   },
   {
-    id: 1,
-    title: "First Blog Title Sample Only For Testing and Building Purposes ",
+    id: 2,
+    title: "Second Blog Title Sample - For Testing and Building Purposes ",
     description:
-      "Becoming unconventional in online commercial gaming industry is tantamount to bravery for taking a different path where others do not dare to go...",
-    slug: "blog-title-slug",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat",
+    slug: "blog-title-slug2",
     buttonText: "Read More ➤",
-    link: "/blogs/blog-title-slug",
-    image: "img/sample.webp",
+    link: "/blogs/blog-title-slug2",
+    image: "/public/img/sample.webp",
     Author: "Betso88 Writer",
     Date: "January 4, 2024",
     content: `
-      <p class="descriptions colorRegShadow textAlignmentLeft"><a class="colorPri" href="https://example.com" target="_blank">Banglabet88</a> has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <div class="bonusButtonContainer"></div>
-      <h2 class="heading2 textAlignmentLeft colorSec">Heading2</h2>
-      <picture class="img_fit mtb20">
-        <source media="(min-width: 768px)" srcSet="/assets/blog1.jpg" />
-        <img src="/assets/blog1.jpg" alt={blog.title} class="imageBlogSub" />
+      <p class="text-paragraph"><a class="text-anchor" href="https://example.com" target="_blank"><span class="target">Lorem ipsum dolor</span></a>  sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="text-bonusButtonContainer"></div>
+      <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
+      <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <picture class="blog-pic">
+        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
+        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
-      <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <ul class="mlr20">
+      <ul class="px-4">
         <li>
-          <h3 class="heading3 textAlignmentLeft colorSec">Heading3</h3>
-          <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-          <ul class="mlr20">
+          <div class="target"><h3 class="text-heading3">Heading3 Heading3 Heading3</h3></div>
+          <p class="text-paragraph"><span class="target">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <ul class="px-4">
             <li>
-              <h4 class="heading4 textAlignmentLeft colorSec">Heading4</h4>
-              <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </li>
+            <li>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="target"><h3 class="text-heading3">Heading3 Heading3 Heading3</h3></div>
+          <p class="text-paragraph"><span class="target">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <ul class="px-4">
+            <li>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </li>
           </ul>
         </li>
       </ul>
-        <div class="bonusButtonContainer"></div>
-
-    `,
-  },
-  {
-    id: 1,
-    title: "First Blog Title Sample Only For Testing and Building Purposes ",
-    description:
-      "Becoming unconventional in online commercial gaming industry is tantamount to bravery for taking a different path where others do not dare to go...",
-    slug: "blog-title-slug",
-    buttonText: "Read More ➤",
-    link: "/blogs/blog-title-slug",
-    image: "img/sample.webp",
-    Author: "Betso88 Writer",
-    Date: "January 4, 2024",
-    content: `
-      <p class="descriptions colorRegShadow textAlignmentLeft"><a class="colorPri" href="https://example.com" target="_blank">Banglabet88</a> has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <div class="bonusButtonContainer"></div>
-      <h2 class="heading2 textAlignmentLeft colorSec">Heading2</h2>
-      <picture class="img_fit mtb20">
-        <source media="(min-width: 768px)" srcSet="/assets/blog1.jpg" />
-        <img src="/assets/blog1.jpg" alt={blog.title} class="imageBlogSub" />
+      <div class="text-bonusButtonContainer"></div>
+      <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
+      <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <picture class="blog-pic">
+        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
+        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
-      <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <ul class="mlr20">
+      <ul class="px-4">
         <li>
-          <h3 class="heading3 textAlignmentLeft colorSec">Heading3</h3>
-          <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-          <ul class="mlr20">
+          <div class="target"><h3 class="text-heading3">Heading3 Heading3 Heading3</h3></div>
+          <p class="text-paragraph"><span class="target">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <ul class="px-4">
             <li>
-              <h4 class="heading4 textAlignmentLeft colorSec">Heading4</h4>
-              <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
+              <div class="target"><h4 class="text-heading4">Heading4 Heading4 Heading4 testing</h4></div>
+              <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </li>
           </ul>
         </li>
       </ul>
-        <div class="bonusButtonContainer"></div>
-
-    `,
-  },
-  {
-    id: 1,
-    title: "First Blog Title Sample Only For Testing and Building Purposes ",
-    description:
-      "Becoming unconventional in online commercial gaming industry is tantamount to bravery for taking a different path where others do not dare to go...",
-    slug: "blog-title-slug",
-    buttonText: "Read More ➤",
-    link: "/blogs/blog-title-slug",
-    image: "img/sample.webp",
-    Author: "Betso88 Writer",
-    Date: "January 4, 2024",
-    content: `
-      <p class="descriptions colorRegShadow textAlignmentLeft"><a class="colorPri" href="https://example.com" target="_blank">Banglabet88</a> has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <div class="bonusButtonContainer"></div>
-      <h2 class="heading2 textAlignmentLeft colorSec">Heading2</h2>
-      <picture class="img_fit mtb20">
-        <source media="(min-width: 768px)" srcSet="/assets/blog1.jpg" />
-        <img src="/assets/blog1.jpg" alt={blog.title} class="imageBlogSub" />
-      </picture>
-      <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-      <ul class="mlr20">
-        <li>
-          <h3 class="heading3 textAlignmentLeft colorSec">Heading3</h3>
-          <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-          <ul class="mlr20">
-            <li>
-              <h4 class="heading4 textAlignmentLeft colorSec">Heading4</h4>
-              <p class="descriptions colorRegShadow textAlignmentLeft">Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer Banglabet88 has become a trailblazer </p>
-            </li>
-          </ul>
-        </li>
-      </ul>
-        <div class="bonusButtonContainer"></div>
-
     `,
   },
 ];
 
-export default blogs;
+// Sort the blogs by ID (newest to oldest)
+const sortedBlogs = blogs.sort((a, b) => b.id - a.id);
+
+export default sortedBlogs;

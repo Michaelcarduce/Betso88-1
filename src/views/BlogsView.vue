@@ -25,8 +25,8 @@ import blogs from "@/miscellaneous/blogs/BlogDataSource.js";
           :key="blog.id"
           :image="blog.image"
           :title="
-            blog.title.length > 60
-              ? blog.title.substring(0, 60) + ' ...'
+            blog.title.length > 55
+              ? blog.title.substring(0, 55) + ' ...'
               : blog.title
           "
           :Author="blog.Author"

@@ -1,70 +1,3 @@
-<!-- <template>
-  <article>
-    <a
-      :href="link"
-      target="_blank"
-      class="cardGridBlog "
-    >
-      <picture v-if="image" >
-        <source media="(min-width: 768px)" :srcset="`${image}`" />
-        <img
-          :src="`${image}`"
-          :alt="title || 'Blog Image'"
-          :title="title || 'Blog Image'"
-        />
-      </picture>
-
-      <div class="p-2">
-        <h4 v-if="title" class="card-title text-xl sm:text-xl md:text-1xl lg:text-2xl bg-gradient-to-r from-yellow-300 to-orange-400 text-transparent bg-clip-text font-bold py-2">
-          {{ title }}
-        </h4>
-
-        <p  class="text-sm md:text-m lg:text-l text-gray-400 py-2">
-          <span v-if="Author">{{ Author }}</span> • <span v-if="Date">{{ Date }}</span>
-        </p>
-
-        <p v-if="description" class="text-m md:text-ml lg:text-lg text-gray-200 ">
-          {{
-            description
-              .split(/(<span[^>]*>.*?<\/span>)/g)
-              .map((part, index) => {
-                if (part.match(/<span[^>]*>.*?<\/span>/)) {
-                  return `<span key="${index}" class="${
-                    part.includes("fontWeightBold") ? "fontWeightBold colorPri" : ""
-                  }">${part.replace(/<\/?span[^>]*>/g, "")}</span>`;
-                }
-                return part;
-              })
-              .join("")
-          }}
-        </p>
-
-        <div v-if="buttonText" class="py-4">
-          <div class="">
-            <a class="text-m md:text-ml lg:text-l bg-gradient-to-r from-yellow-100 to-red-200 text-transparent bg-clip-text font-bold">{{ buttonText || "" }}</a>
-          </div>
-        </div>
-      </div>
-    </a>
-  </article>
-</template>
-
-<script>
-import { RouterLink } from "vue-router";
-export default {
-  name: "BlogCard",
-  props: {
-    image: String,
-    title: String,
-    description: String,
-    link: String,
-    buttonText: String,
-    Author: String,
-    Date: String,
-  },
-};
-</script> -->
-
 
 <template>
   <RouterLink
@@ -86,9 +19,19 @@ export default {
         {{ title }}
       </h4>
 
-      <p class="text-sm md:text-m lg:text-l text-gray-400 py-2">
+      <!-- <p class="text-sm md:text-m lg:text-l text-gray-400 py-2">
         <span v-if="Author">{{ Author }}</span> • <span v-if="Date">{{ Date }}</span>
+      </p> -->
+      <div v-if="Author && Date">
+        <p class="text-sm md:text-m lg:text-l text-gray-400 py-2">
+        <span >{{ Author }} • {{ Date }}</span>
       </p>
+      </div>
+      <!-- <p class="text-sm md:text-m lg:text-l text-gray-400 py-2">
+        <span v-if="Author">{{ Author }}</span>
+        <span v-if="Author && Date"> • </span>
+        <span v-if="Date">{{ Date }}</span>
+      </p> -->
 
       <p v-if="description" class="text-m md:text-ml lg:text-lg text-gray-200">
         {{

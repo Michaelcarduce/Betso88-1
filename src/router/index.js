@@ -73,5 +73,13 @@ const router = createRouter({
     }
   },
 });
+// Navigation guard to check if the route is a blog post
+router.beforeEach((to, from, next) => {
+  if (to.path.startsWith("/blogs/")) {
+    // Adjust links or perform any necessary actions for blog posts
+    console.log("Navigating to a blog post:", to.path);
+  }
+  next(); // Proceed to the next middleware or route
+});
 
 export default router;
