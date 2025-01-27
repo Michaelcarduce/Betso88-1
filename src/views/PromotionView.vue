@@ -51,7 +51,7 @@ const faqData = [
     width="100%"
     :duration="1500"
     :imageSrc="banner1"
-    :imageSrcMobile="bannerMobile1" />
+    :imageMobileSrc="bannerMobile1" />
   <Hero
     class="mb-10"
     title="Elevate Your Gaming: Discover Bet88 VIP Slots & Claim Your Rewards"
@@ -151,7 +151,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps1"
-        :imageSrcMobile="steps1">
+        :imageMobileSrc="steps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -194,7 +194,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps2"
-        :imageSrcMobile="steps2">
+        :imageMobileSrc="steps2">
       </InfoGraphics>
     </div>
   </div>
@@ -206,7 +206,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps3"
-        :imageSrcMobile="steps3">
+        :imageMobileSrc="steps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -250,7 +250,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps4"
-        :imageSrcMobile="steps4">
+        :imageMobileSrc="steps4">
       </InfoGraphics>
     </div>
   </div>
@@ -271,7 +271,7 @@ const faqData = [
         `"
     :duration="1500"
     :imageSrc="promotionCard1"
-    :imageSrcMobile="promotionCard1" />
+    :imageMobileSrc="promotionCard1" />
 
   <PromotionBanner
     width="80%"
@@ -279,7 +279,7 @@ const faqData = [
     :description="`Bet88 VIP Slots provides a generous bonus for new players. After making their first deposit, players are given a bonus that can greatly increase their starting bankroll. The welcome bonus is typically composed of a percentage that is matched with the deposit. This allows players to pay a set amount and receive a bonus of the same or greater value. For example, a 100% match bonus on a deposit of $50,000 would increase the player's initial funds by $200,000.`"
     :duration="1500"
     :imageSrc="promotionCard2"
-    :imageSrcMobile="promotionCard2" />
+    :imageMobileSrc="promotionCard2" />
 
   <PromotionBanner
     width="80%"
@@ -287,7 +287,7 @@ const faqData = [
     :description="`For players who return to the site, Bet88 VIP Slots offers a deposit and reloading bonus. These bonuses are intended to incentivize continued play, they provide extra funds with every deposit. Reload rewards are often expressed as a percentage, such as a 50% or 75% match on subsequent deposits, which increases the amount of money available to players as they continue to utilize the platform.`"
     :duration="1500"
     :imageSrc="promotionCard3"
-    :imageSrcMobile="promotionCard3" />
+    :imageMobileSrc="promotionCard3" />
 
   <PromotionBanner
     width="80%"
@@ -295,7 +295,7 @@ const faqData = [
     :description="`Bet88 VIP Slots also benefits its players with free spins and cashback on popular slots. Free spins offer the opportunity to attempt your fortune on select games of slots without depositing funds, while cashback offers offer a portion of your losses to your account. These attributes make Bet88 VIP Slots a versatile platform that benefits both winning and losing players.`"
     :duration="1500"
     :imageSrc="promotionCard4"
-    :imageSrcMobile="promotionCard4" />
+    :imageMobileSrc="promotionCard4" />
 
   <PromotionBanner
     width="80%"
@@ -303,7 +303,7 @@ const faqData = [
     :description="`The Bet88 VIP and Loyalty Program is one of the most attractive features of the website. With different tiers of VIP, dedicated players can receive exclusive benefits, including increased cash-back, quicker withdrawals, personal account managers, and access to special events. As players move up through the tiers, the value of the rewards increases, with top-tier members enjoying the entirety of Bet88's 100 million promotional offering.`"
     :duration="1500"
     :imageSrc="promotionCard5"
-    :imageSrcMobile="promotionCard5" />
+    :imageMobileSrc="promotionCard5" />
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
@@ -549,7 +549,7 @@ const faqData = [
     :duration="1500"
     :speed="0.8"
     :imageSrc="icon1"
-    :imageSrcMobile="icon1">
+    :imageMobileSrc="icon1">
   </Image>
   <div class="mb-20"></div>
 

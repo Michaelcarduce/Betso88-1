@@ -44,17 +44,17 @@ const faqData = [
     width="100%"
     :duration="1500"
     :imageSrc="banner1"
-    :imageSrcMobile="bannerMobile1" />
+    :imageMobileSrc="bannerMobile1" />
   <Hero
     class="mb-10"
     title="Panalobet online fishing games community | Panalobet live"
     subTitle="Panalobet Fishing games provide a unique fishing experience using technology and graphics that show the realistic sea and different types of fish." />
 
   <div class="flex flex-wrap justify-center items-center gap-2 mb-20">
-    <CardGrid2 :duration="1200" :imageSrc="image1" :imageSrcMobile="image1" />
-    <CardGrid2 :duration="1300" :imageSrc="image2" :imageSrcMobile="image2" />
-    <CardGrid2 :duration="1400" :imageSrc="image3" :imageSrcMobile="image3" />
-    <CardGrid2 :duration="1500" :imageSrc="image4" :imageSrcMobile="image4" />
+    <CardGrid2 :duration="1200" :imageSrc="image1" :imageMobileSrc="image1" />
+    <CardGrid2 :duration="1300" :imageSrc="image2" :imageMobileSrc="image2" />
+    <CardGrid2 :duration="1400" :imageSrc="image3" :imageMobileSrc="image3" />
+    <CardGrid2 :duration="1500" :imageSrc="image4" :imageMobileSrc="image4" />
   </div>
 
   <h2
@@ -135,7 +135,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="icon1"
-        :imageSrcMobile="icon1"
+        :imageMobileSrc="icon1"
         class="object-cover h-full">
       </Image>
     </div>
@@ -154,7 +154,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="homeImg3"
-        :imageSrcMobile="homeImg3">
+        :imageMobileSrc="homeImg3">
       </Image>
     </div>
   </div> -->
@@ -234,7 +234,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps1"
-        :imageSrcMobile="steps1">
+        :imageMobileSrc="steps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -286,7 +286,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps2"
-        :imageSrcMobile="steps2">
+        :imageMobileSrc="steps2">
       </InfoGraphics>
     </div>
   </div>
@@ -298,7 +298,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps3"
-        :imageSrcMobile="steps3">
+        :imageMobileSrc="steps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -485,7 +485,7 @@ const faqData = [
     :duration="1500"
     :speed="0.8"
     :imageSrc="icon2"
-    :imageSrcMobile="icon2">
+    :imageMobileSrc="icon2">
   </Image>
   <div class="mb-20"></div>
 

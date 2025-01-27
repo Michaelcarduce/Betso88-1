@@ -18,7 +18,7 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
     width="100%"
     :duration="1500"
     :imageSrc="banner1"
-    :imageSrcMobile="bannerMobile1" />
+    :imageMobileSrc="bannerMobile1" />
   <Hero
     title="Panalobet | Play the Hottest and Most Exciting Casino Slots and Win ₱57,888"
     subTitle="2025 — Join Panalobet to play the hottest casino games and win up to ₱57,888. Enjoy thrilling gameplay, great security and big prizes now!" />
@@ -40,7 +40,7 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
     :duration="1500"
     :speed="0.8"
     :imageSrc="image1"
-    :imageSrcMobile="image1">
+    :imageMobileSrc="image1">
   </Image>
 
   <h2
@@ -259,7 +259,7 @@ import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
     width="80%"
     :duration="1500"
     :imageSrc="banner2"
-    :imageSrcMobile="bannerMobile2" />
+    :imageMobileSrc="bannerMobile2" />
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">

@@ -72,7 +72,7 @@ const faqData = [
     width="100%"
     :duration="1500"
     :imageSrc="banner1"
-    :imageSrcMobile="bannerMobile1" />
+    :imageMobileSrc="bannerMobile1" />
   <Hero
     class="mb-5"
     title="Panalobet - The best online real money casino in the Philippines"
@@ -82,7 +82,7 @@ const faqData = [
     :duration="1500"
     :speed="0.8"
     :imageSrc="image1"
-    :imageSrcMobile="imageMobile1">
+    :imageMobileSrc="imageMobile1">
   </Image>
   <h4
     class="hidden md:flex mt-20 mb-2 text-xl sm:text-xl md:text-1xl lg:text-2xl bg-gradient-to-r from-yellow-100 to-red-200 text-transparent bg-clip-text font-bold">
@@ -200,7 +200,7 @@ const faqData = [
     :duration="1500"
     :speed="0.8"
     :imageSrc="homeImg2"
-    :imageSrcMobile="homeImg2">
+    :imageMobileSrc="homeImg2">
   </Image>
 
   <h2
@@ -381,7 +381,7 @@ const faqData = [
         :duration="1500"
         :speed="0.8"
         :imageSrc="homeImg3"
-        :imageSrcMobile="homeImg3">
+        :imageMobileSrc="homeImg3">
       </Image>
     </div>
   </div>

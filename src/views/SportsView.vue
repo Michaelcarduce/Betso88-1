@@ -27,7 +27,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
     width="100%"
     :duration="1500"
     :imageSrc="banner1"
-    :imageSrcMobile="bannerMobile1" />
+    :imageMobileSrc="bannerMobile1" />
   <Hero
     class="mb-32"
     title="Betting at Panalobet Sports Online Casino of the Philippines"
@@ -38,22 +38,22 @@ import image1 from "@/assets/img/sportsIcon1.webp";
       :title="`&nbsp;`"
       :duration="1000"
       :imageSrc="sports1"
-      :imageSrcMobile="sports1" />
+      :imageMobileSrc="sports1" />
     <CardGrid
       :title="`&nbsp;`"
       :duration="1200"
       :imageSrc="sports2"
-      :imageSrcMobile="sports2" />
+      :imageMobileSrc="sports2" />
     <CardGrid
       :title="`&nbsp;`"
       :duration="1400"
       :imageSrc="sports3"
-      :imageSrcMobile="sports3" />
+      :imageMobileSrc="sports3" />
     <CardGrid
       :title="`&nbsp;`"
       :duration="1600"
       :imageSrc="sports4"
-      :imageSrcMobile="sports4" />
+      :imageMobileSrc="sports4" />
   </div>
 
   <h2
@@ -176,7 +176,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps1"
-        :imageSrcMobile="sportsSteps1">
+        :imageMobileSrc="sportsSteps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -224,7 +224,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps2"
-        :imageSrcMobile="sportsSteps2">
+        :imageMobileSrc="sportsSteps2">
       </InfoGraphics>
     </div>
   </div>
@@ -236,7 +236,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsSteps3"
-        :imageSrcMobile="sportsSteps3">
+        :imageMobileSrc="sportsSteps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -403,7 +403,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsLegal1"
-        :imageSrcMobile="sportsLegal1">
+        :imageMobileSrc="sportsLegal1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -440,7 +440,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsLegal2"
-        :imageSrcMobile="sportsLegal2">
+        :imageMobileSrc="sportsLegal2">
       </InfoGraphics>
     </div>
   </div>
@@ -452,7 +452,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="sportsLegal3"
-        :imageSrcMobile="sportsLegal3">
+        :imageMobileSrc="sportsLegal3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -531,7 +531,7 @@ import image1 from "@/assets/img/sportsIcon1.webp";
     :duration="1500"
     :speed="0.8"
     :imageSrc="image1"
-    :imageSrcMobile="image1">
+    :imageMobileSrc="image1">
   </Image>
   <div class="mb-20"></div>
   <Footer></Footer>

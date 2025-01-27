@@ -16,8 +16,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -49,8 +49,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -83,8 +83,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -116,8 +116,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -150,8 +150,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -183,8 +183,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -217,8 +217,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -250,8 +250,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Heading2 Heading2 Heading2</h2></div>
       <p class="text-paragraph">Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 1  ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/public/img/sample.webp" />
-        <img src="/public/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
+        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>

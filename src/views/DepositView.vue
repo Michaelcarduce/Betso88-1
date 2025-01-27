@@ -20,7 +20,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
     width="100%"
     :duration="1500"
     :imageSrc="banner1"
-    :imageSrcMobile="bannerMobile1" />
+    :imageMobileSrc="bannerMobile1" />
   <Hero
     class="mb-10"
     title="Deposit Bet88, the First Step Towards Victory"
@@ -86,7 +86,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps1"
-        :imageSrcMobile="steps1">
+        :imageMobileSrc="steps1">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -128,7 +128,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps2"
-        :imageSrcMobile="steps2">
+        :imageMobileSrc="steps2">
       </InfoGraphics>
     </div>
   </div>
@@ -140,7 +140,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="steps3"
-        :imageSrcMobile="steps3">
+        :imageMobileSrc="steps3">
       </InfoGraphics>
     </div>
     <div class="md:w-1/2 w-full">
@@ -213,7 +213,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
         :duration="1500"
         :speed="0.8"
         :imageSrc="icon1"
-        :imageSrcMobile="icon1"
+        :imageMobileSrc="icon1"
         class="object-cover h-full">
       </Image>
     </div>
