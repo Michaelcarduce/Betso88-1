@@ -7,7 +7,7 @@ const blogs = [
     slug: "blog-title-slug1",
     buttonText: "Read More ➤",
     link: "/blogs/blog-title-slug1",
-    image: "/public/img/sample.webp",
+    image: "/img/sample.webp",
     Author: "Betso88 Writer",
     Date: "January 4, 2024",
     content: `
@@ -74,7 +74,7 @@ const blogs = [
     slug: "blog-title-slug2",
     buttonText: "Read More ➤",
     link: "/blogs/blog-title-slug2",
-    image: "/public/img/sample.webp",
+    image: "/img/sample.webp",
     Author: "Betso88 Writer",
     Date: "January 4, 2024",
     content: `
