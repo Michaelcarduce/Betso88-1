@@ -132,25 +132,6 @@ export default {
       }, 500); // Adjust the interval time to control the speed
     };
 
-    // const scrollToHeading = (id) => {
-    //   const target = document.getElementById(id);
-    //   if (target) {
-    //     const rect = target.getBoundingClientRect(); // Get the target's position
-    //     const scrollTop =
-    //       window.pageYOffset || document.documentElement.scrollTop; // Current scroll position
-    //     const viewportHeight = window.innerHeight; // Viewport height
-
-    //     const targetPosition =
-    //       scrollTop + rect.top - viewportHeight / 2 + rect.height / 2;
-
-    //     window.scrollTo({
-    //       top: targetPosition,
-    //       behavior: "smooth",
-    //     });
-    //   } else {
-    //     console.warn("Heading not found: ", id);
-    //   }
-    // };
     const scrollToHeading = (id) => {
       const target = document.getElementById(id);
       if (target) {
@@ -226,23 +207,15 @@ export default {
       </section>
       <section
         class="flex flex-col md:flex-row items-start gap-2 sm:gap-2 md:gap-4 lg:gap-4">
-        <aside class="md:w-2/10 w-full h-auto bg-midnightGlass p-2">
+        <aside
+          class="md:w-2/10 w-full h-auto bg-midnightGlass p-2"
+          style="position: sticky !important; top: 20px; z-index: 10">
           <p
             class="text-center text-m md:text-ml lg:text-l bg-gradient-to-r from-yellow-100 to-red-200 text-transparent bg-clip-text font-bold py-2 md:py-2 lg:py-4">
             Table Of Contents
           </p>
           <div class="text-center tableOfContents" v-if="tocLoading">
             <p class="highlight">Loading table of contents ...</p>
-            <!-- <ul>
-              <li v-for="(heading, index) in headings" :key="index">
-                <a
-                  :href="'#' + heading.id"
-                  @click.prevent="scrollToHeading(heading.id)"
-                  class="text-white hover:text-transparent hover:bg-gradient-to-r hover:from-yellow-100 hover:to-red-200 hover:bg-clip-text text-m md:text-ml lg:text-l"
-                  >{{ heading.text }}</a
-                >
-              </li>
-            </ul> -->
           </div>
           <div v-else>
             <ul>
