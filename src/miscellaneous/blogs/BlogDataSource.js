@@ -7,7 +7,8 @@ const blogs = [
     slug: "5-Legit-Online-Casino-Philippines-GCash-Real-Money-Sites-2025",
     buttonText: "Read More ➤",
     link: "/blogs/5-Legit-Online-Casino-Philippines-GCash-Real-Money-Sites-2025",
-    image: "/img/sample.webp",
+    image:
+      "/img/5-Legit-Online-Casino-Philippines-GCash-Real-Money-Sites-2025.webp",
     Author: "Writer",
     Date: "January 4, 2024",
     content: `
@@ -18,8 +19,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">1. Melbet</h2></div>
       <p class="text-paragraph">It is popular in the Philippines with online casino games and offering various bonus options. Melbet was set up in the year 2012 and has a license from Curacao. Melbet has gained an unexpected rise amongst Filipinos, alongside the other users, because of their user-friendly platform and security features offered by the company.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/5-Legit-Online-Casino-Philippines-GCash-Real-Money-Sites-2025-1.webp" />
+        <img src="/img/5-Legit-Online-Casino-Philippines-GCash-Real-Money-Sites-2025-1.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">2. 888 Casino</h2></div>
@@ -31,8 +32,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">4. Jackpot City</h2></div>
       <p class="text-paragraph">Jackpot City has been awarded as the finest legit online casino in the Philippines for player safeness and satisfaction. It contains a variety of gaming options with GCash transactions. As with all other casinos, it should be licensed and regulated to keep all players safe and worry-free while playing their favorite games.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/5-Legit-Online-Casino-Philippines-GCash-Real-Money-Sites-2025-2.webp" />
+        <img src="/img/5-Legit-Online-Casino-Philippines-GCash-Real-Money-Sites-2025-2.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">5. Royal Panda</h2></div>
@@ -59,7 +60,7 @@ const blogs = [
     slug: "Do's-and-Don'ts-at-the-Online-Table-Games",
     buttonText: "Read More ➤",
     link: "/blogs/Do's-and-Don'ts-at-the-Online-Table-Games",
-    image: "/img/sample.webp",
+    image: "/img/Do's-and-Don'ts-at-the-Online-Table-Games.webp",
     Author: "Writer",
     Date: "January 5, 2024",
     content: `
@@ -70,8 +71,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Do Familiarize Yourself with the Game Rules</h2></div>
       <p class="text-paragraph">Dive into the URL game without knowing the rules and strategies of the game you want to play. There are quite a number of online casinos where you can find free play or demo versions, which will enable you to practice the game without putting your finances at stake. They will boost your confidence in understanding the mechanics of the game and improve your chances of winning. </p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/Do's-and-Don'ts-at-the-Online-Table-Games-1.webp" />
+        <img src="/img/Do's-and-Don'ts-at-the-Online-Table-Games-1.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">Don't Chase Losses</h2></div>
@@ -83,8 +84,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Don't Slow Down Gameplay</h2></div>
       <p class="text-paragraph">Yes, it's good to deliberate before your move, but deliberation must not take too long lest you frustrate other players at the table. You should make timely decisions in such a way that the game runs smoothly. If, however, you discover that you need time, it would be better to switch to a slower-paced game or do more in free play.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/Do's-and-Don'ts-at-the-Online-Table-Games-2.webp" />
+        <img src="/img/Do's-and-Don'ts-at-the-Online-Table-Games-2.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">Do Set Limits for Your Playtime</h2></div>
@@ -100,8 +101,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Don't Form Exclusive Groups</h2></div>
       <p class="text-paragraph">Sure, the social atmosphere makes your experience at online table games lively, but do not form cliques that intimidate other players. Engaging in collusion or chip-dumping, where a player intentionally loses in order to transfer the earned funds, is illegal and can lead to the immediate suspension of your account or even legal consequences.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/Do's-and-Don'ts-at-the-Online-Table-Games-3.webp" />
+        <img src="/img/Do's-and-Don'ts-at-the-Online-Table-Games-3.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">In the end</h2></div>
@@ -119,7 +120,7 @@ const blogs = [
     slug: "How-Mobile-Apps-are-Changing-the-Gambling-Industry",
     buttonText: "Read More ➤",
     link: "/blogs/How-Mobile-Apps-are-Changing-the-Gambling-Industry",
-    image: "/img/sample.webp",
+    image: "/img/How-Mobile-Apps-are-Changing-the-Gambling-Industry.webp",
     Author: "Writer",
     Date: "January 6, 2024",
     content: `
@@ -133,8 +134,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Enhanced Accessibility and Convenience</h2></div>
       <p class="text-paragraph">The biggest effect mobile apps have on gambling is access. With mobile technology, gamblers can no longer visit actual betting shops to place a bet. Now all that they need is a well-set smartphone that will allow access to thousands of ways of gambling right from one's home or even on the go. With this kind of convenience, more and more people are using this means of making their bets and it is now about 60% of all online gamblers who now do so through their mobile devices. Anytime, anywhere, gambling is now broadening the audience that can avail of these services and thus enormously possible increases in engagement from different demographics.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/How-Mobile-Apps-are-Changing-the-Gambling-Industry-1.webp" />
+        <img src="/img/How-Mobile-Apps-are-Changing-the-Gambling-Industry-1.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">User-Centric Features</h2></div>
@@ -146,8 +147,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Security and Trust</h2></div>
       <p class="text-paragraph">Security and trust remain a part of the key determining factors in this phenomenon called the reliance of gamblers on mobile applications. These applications will require the adoption of advanced safety methods usually used, such as 2-step authentication, SSL encryption, among such other methods, to be able to protect all the sensitive personal data and financial transactions. Establishing trust among players, thus, will be strengthened by ensuring a security focus such as this one because of the increase in worries from most people about scams on the internet and data breaches. Apart from the various measures that are taken under the umbrella of firm security systems, many gambling sites will cultivate an immersive betting experience that will entice many gamblers to participate in betting activities.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/How-Mobile-Apps-are-Changing-the-Gambling-Industry-2.webp" />
+        <img src="/img/How-Mobile-Apps-are-Changing-the-Gambling-Industry-2.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">The Financial Impact</h2></div>
@@ -167,7 +168,7 @@ const blogs = [
     slug: "Understanding-How-Live-Casino-Games-Work",
     buttonText: "Read More ➤",
     link: "/blogs/Understanding-How-Live-Casino-Games-Work",
-    image: "/img/sample.webp",
+    image: "/img/Understanding-How-Live-Casino-Games-Work.webp",
     Author: "Writer",
     Date: "January 7, 2024",
     content: `
@@ -178,8 +179,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">What Are Live Casino Games?</h2></div>
       <p class="text-paragraph">Live casino games are online gambling services wherein players can participate through live video streaming by live dealers in an event. They may include all the popular table games such as blackjack, roulette, and even baccarat, and a new gaming event that will introduce them into a thrilling gaming experience. The main aim of these live casino games is to bring the real feeling of going in the actual casino world; but played at home, much easier and more convenient.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/Understanding-How-Live-Casino-Games-Work-1.webp" />
+        <img src="/img/Understanding-How-Live-Casino-Games-Work-1.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">How Do Live Casino Games Work?</h2></div>
@@ -206,8 +207,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Types of Live Casino Games</h2></div>
       <p class="text-paragraph">Live casinos provide many games for every individual preference:</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/Understanding-How-Live-Casino-Games-Work-2.webp" />
+        <img src="/img/Understanding-How-Live-Casino-Games-Work-2.webp" alt={blog.title} class="blog-img" />
       </picture>
       <ul class="px-4">
         <li>
@@ -259,7 +260,7 @@ const blogs = [
     slug: "Why-Players-Love-Live-Casino-Game-Shows",
     buttonText: "Read More ➤",
     link: "/blogs/Why-Players-Love-Live-Casino-Game-Shows",
-    image: "/img/sample.webp",
+    image: "/img/Why-Players-Love-Live-Casino-Game-Shows.webp",
     Author: "Writer",
     Date: "January 4, 2024",
     content: `
@@ -270,8 +271,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Authenticity and Realism</h2></div>
       <p class="text-paragraph">What sells largely the live casino is the factor of authenticity; players may really interact with a real-time professional dealer creating an atmosphere almost identical to that of the casino floor itself. High-definition video streams from many camera angles bring the view even closer to the player, with every shuffle of the cards and spin of the roulette wheel visible to that player. This transparency is what builds trust, as players love to see everything unfolding before their very eyes.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/Why-Players-Love-Live-Casino-Game-Shows-1.webp" />
+        <img src="/img/Why-Players-Love-Live-Casino-Game-Shows-1.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">Variety of Games</h2></div>
@@ -283,8 +284,8 @@ const blogs = [
       <div class="target"><h2 class="text-heading2">Technological Advancements</h2></div>
       <p class="text-paragraph">This fast pace of technological advancement has been responsible for the large strides taken by live casino games in nudging their popularity forward. These improved internet speeds coupled with brilliant streaming technology enable the players to enjoy a very high standard of gaming without interruptions. Infusing all kinds of innovations in gaming keeps the live dealer experience growing each day while the game developers keep investing in new features that further excite players.</p>
       <picture class="blog-pic">
-        <source media="(min-width: 768px)" srcSet="/img/sample.webp" />
-        <img src="/img/sample.webp" alt={blog.title} class="blog-img" />
+        <source media="(min-width: 768px)" srcSet="/img/Why-Players-Love-Live-Casino-Game-Shows-2.webp" />
+        <img src="/img/Why-Players-Love-Live-Casino-Game-Shows-2.webp" alt={blog.title} class="blog-img" />
       </picture>
 
       <div class="target"><h2 class="text-heading2">Social Interaction</h2></div>

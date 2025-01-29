@@ -18,19 +18,19 @@ export default {
     const headingsList = ref([]);
 
     const classMapping = {
-      "text-bonusButtonContainer": "w-full flex justify-center p-6",
+      "text-bonusButtonContainer": "w-full flex justify-center py-4",
       "text-paragraph":
-        "text-m sm:text-m md:text-ml lg:text-lg mb-2 text-gray-200",
+        "text-m sm:text-m md:text-ml lg:text-lg text-gray-200 py-1",
       "text-anchor":
         "font-bold bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text hover:text-yellow-200 transition duration-300 hover:underline hover:underline-offset-4 hover:decoration-yellow-200 hover:underline-offset-4 hover:decoration-yellow-200hover:from-transparent hover:to-yellow-200",
       "text-heading2":
-        "text-2xl sm:text-2xl md:text-3xl lg:text-3xl mb-4 bg-gradient-to-r from-yellow-100 to-orange-300 text-transparent bg-clip-text font-bold",
-      "blog-pic": "w-full flex justify-center mb-4",
+        "text-2xl sm:text-2xl md:text-3xl lg:text-3xl bg-gradient-to-r from-yellow-100 to-orange-300 text-transparent bg-clip-text font-bold py-4",
+      "blog-pic": "w-full flex justify-center py-4",
       "blog-img": "w-3/5",
       "text-heading3":
-        "text-xl sm:text-xl md:text-2xl lg:text-2xl bg-gradient-to-r from-yellow-100 to-orange-500 text-transparent bg-clip-text font-bold mb-4",
+        "text-xl sm:text-xl md:text-2xl lg:text-2xl bg-gradient-to-r from-yellow-100 to-orange-500 text-transparent bg-clip-text font-bold py-3",
       "text-heading4":
-        "text-lg sm:text-lg md:text-xl lg:text-xl bg-gradient-to-r from-yellow-100 via-red-300 to-orange-400 text-transparent bg-clip-text font-bold mb-4",
+        "text-lg sm:text-lg md:text-xl lg:text-xl bg-gradient-to-r from-yellow-100 via-red-300 to-orange-400 text-transparent bg-clip-text font-bold py-2",
     };
 
     const replaceClasses = (html) => {
@@ -43,6 +43,56 @@ export default {
         },
         html
       );
+    };
+
+    const updateMetaTags = (blog) => {
+      // Update the <title> tag
+      document.title = blog.title;
+
+      // Update the <meta name="description"> tag
+      let metaDescription = document.querySelector('meta[name="description"]');
+      if (!metaDescription) {
+        metaDescription = document.createElement("meta");
+        metaDescription.name = "description";
+        document.head.appendChild(metaDescription);
+      }
+      metaDescription.content = blog.description;
+
+      // Update the <link rel="canonical"> tag
+      let canonicalLink = document.querySelector('link[rel="canonical"]');
+      if (!canonicalLink) {
+        canonicalLink = document.createElement("link");
+        canonicalLink.rel = "canonical";
+        document.head.appendChild(canonicalLink);
+      }
+      canonicalLink.href = window.location.href;
+    };
+
+    const generateSchema = (blog) => {
+      return {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: blog.title,
+        description: blog.description,
+        image: blog.image,
+        author: {
+          "@type": "Person",
+          name: blog.Author,
+        },
+        datePublished: blog.Date,
+        dateModified: blog.Date,
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": window.location.href,
+        },
+      };
+    };
+
+    const injectSchema = (schema) => {
+      const script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
     };
 
     onMounted(() => {
@@ -89,6 +139,13 @@ export default {
           });
         sanitizedContent.value = tempDiv.innerHTML; // Update sanitized content with IDs
         loadHeadings();
+
+        // Update meta tags
+        updateMetaTags(foundBlog);
+
+        // Generate and inject schema
+        const schema = generateSchema(foundBlog);
+        injectSchema(schema);
       } else {
         console.error("Blog post not found!");
       }
