@@ -21,6 +21,54 @@ import promotionCard3 from "@/assets/img/promotionCard3.webp";
 import promotionCard4 from "@/assets/img/promotionCard4.webp";
 import promotionCard5 from "@/assets/img/promotionCard5.webp";
 
+import { onMounted } from "vue";
+
+onMounted(() => {
+  // Update the <title> tag
+  document.title =
+    "Panalobet VIP and Loyalty Program | BIG Bonuses and Promotions";
+
+  // Update the <meta name="description"> tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+  if (!metaDescription) {
+    metaDescription = document.createElement("meta");
+    metaDescription.name = "description";
+    document.head.appendChild(metaDescription);
+  }
+  metaDescription.content =
+    "Download and Sign up Panalobet Casino App, explore free spins, jackpots, and exclusive rewards that boost your winnings. Enjoy the Wecome Bonus , Grab it now!";
+
+  // Update the <link rel="canonical"> tag
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement("link");
+    canonicalLink.rel = "canonical";
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = window.location.href;
+
+  // Add schema markup
+  const schemaScript = document.createElement("script");
+  schemaScript.type = "application/ld+json";
+  schemaScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Panalobet VIP and Loyalty Program | BIG Bonuses and Promotions",
+    description:
+      " Download and Sign up Panalobet Casino App, explore free spins, jackpots, and exclusive rewards that boost your winnings. Enjoy the Wecome Bonus , Grab it now!",
+    url: window.location.href,
+    publisher: {
+      "@type": "Organization",
+      name: "Panalobet",
+      logo: {
+        "@type": "ImageObject",
+        url: "@/assets/img/logo.png", // Replace with the actual logo URL
+      },
+    },
+  });
+  document.head.appendChild(schemaScript);
+});
+
 const faqData = [
   {
     question: "Is Panalobet's VIP Slots Safe and legitimate?",

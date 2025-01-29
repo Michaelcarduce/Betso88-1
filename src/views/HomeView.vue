@@ -12,6 +12,53 @@ import imageMobile1 from "@/assets/img/homeIcon1.webp";
 import homeImg2 from "@/assets/img/homeIcon2.webp";
 import homeImg3 from "@/assets/img/homeIcon3.webp";
 
+import { onMounted } from "vue";
+
+onMounted(() => {
+  // Update the <title> tag
+  document.title = "Panalobet Most Trusted Online Casinos in the Philippines";
+
+  // Update the <meta name="description"> tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+  if (!metaDescription) {
+    metaDescription = document.createElement("meta");
+    metaDescription.name = "description";
+    document.head.appendChild(metaDescription);
+  }
+  metaDescription.content =
+    "Panalobet is one of the most trusted online casinos in Philippines. Join now and enjoy Live casino, slots, table games, Arcade, and more, win big bonuses and welcome bonus!";
+
+  // Update the <link rel="canonical"> tag
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement("link");
+    canonicalLink.rel = "canonical";
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = window.location.href;
+
+  // Add schema markup
+  const schemaScript = document.createElement("script");
+  schemaScript.type = "application/ld+json";
+  schemaScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Panalobet Most Trusted Online Casinos in the Philippines",
+    description:
+      "Panalobet is one of the most trusted online casinos in Philippines. Join now and enjoy Live casino, slots, table games, Arcade, and more, win big bonuses and welcome bonus!",
+    url: window.location.href,
+    publisher: {
+      "@type": "Organization",
+      name: "Panalobet",
+      logo: {
+        "@type": "ImageObject",
+        url: "@/assets/img/logo.png", // Replace with the actual logo URL
+      },
+    },
+  });
+  document.head.appendChild(schemaScript);
+});
+
 const faqData = [
   {
     question: "What is Panalobet Casino?",

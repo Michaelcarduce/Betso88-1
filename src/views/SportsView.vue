@@ -19,6 +19,53 @@ import sportsLegal1 from "@/assets/img/sportsLegal1.webp";
 import sportsLegal2 from "@/assets/img/sportsLegal2.webp";
 import sportsLegal3 from "@/assets/img/sportsLegal3.webp";
 import image1 from "@/assets/img/sportsIcon1.webp";
+
+import { onMounted } from "vue";
+
+onMounted(() => {
+  // Update the <title> tag
+  document.title = "Panalobet Sports Betting-Bet on your favorite sports";
+
+  // Update the <meta name="description"> tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+  if (!metaDescription) {
+    metaDescription = document.createElement("meta");
+    metaDescription.name = "description";
+    document.head.appendChild(metaDescription);
+  }
+  metaDescription.content =
+    "Panalobet Sports is one of the most popular online casino and sports betting platforms in the Philippines. It offers a wide range of casino games, sports betting and e-sports.";
+
+  // Update the <link rel="canonical"> tag
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement("link");
+    canonicalLink.rel = "canonical";
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = window.location.href;
+
+  // Add schema markup
+  const schemaScript = document.createElement("script");
+  schemaScript.type = "application/ld+json";
+  schemaScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Panalobet Sports Betting-Bet on your favorite sports",
+    description:
+      "Panalobet Sports is one of the most popular online casino and sports betting platforms in the Philippines. It offers a wide range of casino games, sports betting and e-sports.",
+    url: window.location.href,
+    publisher: {
+      "@type": "Organization",
+      name: "Panalobet",
+      logo: {
+        "@type": "ImageObject",
+        url: "@/assets/img/logo.png", // Replace with the actual logo URL
+      },
+    },
+  });
+  document.head.appendChild(schemaScript);
+});
 </script>
 
 <template>

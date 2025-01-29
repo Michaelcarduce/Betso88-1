@@ -16,6 +16,53 @@ import icon1 from "@/assets/img/liveCasinoIcon1.webp";
 import steps1 from "@/assets/img/liveCasinoSteps1.webp";
 import steps2 from "@/assets/img/liveCasinoSteps2.webp";
 import steps3 from "@/assets/img/liveCasinoSteps3.webp";
+
+import { onMounted } from "vue";
+
+onMounted(() => {
+  // Update the <title> tag
+  document.title = "Enjoy Live Casino with Panalobet | Join Now and EARN";
+
+  // Update the <meta name="description"> tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+  if (!metaDescription) {
+    metaDescription = document.createElement("meta");
+    metaDescription.name = "description";
+    document.head.appendChild(metaDescription);
+  }
+  metaDescription.content =
+    "Panalobet Live Casino is an online gaming platform that offers a wide selection of live dealer games, slots, and other casino games.";
+
+  // Update the <link rel="canonical"> tag
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement("link");
+    canonicalLink.rel = "canonical";
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = window.location.href;
+
+  // Add schema markup
+  const schemaScript = document.createElement("script");
+  schemaScript.type = "application/ld+json";
+  schemaScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Enjoy Live Casino with Panalobet | Join Now and EARN",
+    description:
+      "Panalobet Live Casino is an online gaming platform that offers a wide selection of live dealer games, slots, and other casino games.",
+    url: window.location.href,
+    publisher: {
+      "@type": "Organization",
+      name: "Panalobet",
+      logo: {
+        "@type": "ImageObject",
+        url: "@/assets/img/logo.png", // Replace with the actual logo URL
+      },
+    },
+  });
+  document.head.appendChild(schemaScript);
+});
 </script>
 
 <template>
@@ -27,12 +74,12 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
     :imageMobileSrc="bannerMobile1" />
   <Hero
     class="mb-10"
-    title="Bet88 Live Casino: Your Gateway to Online Casino Entertainment in the
+    title="Panalobet Live Casino: Your Gateway to Online Casino Entertainment in the
     Philippines"
     subTitle=" In recent years, the online gaming industry in the Philippines has grown
     rapidly, which has allowed the rise of many online casino platforms. One of
-    the most trusted and well-known names in this field is Bet88 Live Casino. In
-    the year 2025, Bet88 continues to prove their popularity as the best online
+    the most trusted and well-known names in this field is Panalobet Live Casino. In
+    the year 2025, Panalobet continues to prove their popularity as the best online
     casino in the country, thanks to their exceptional service, wide selection
     of games, and excellent customer support." />
 
@@ -45,20 +92,20 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    What is Bet88 Live Casino?
+    What is Panalobet Live Casino?
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    Bet88 Live Casino is an online gaming platform that offers a wide selection
-    of live dealer games, slots, and other casino games. With their
+    Panalobet Live Casino is an online gaming platform that offers a wide
+    selection of live dealer games, slots, and other casino games. With their
     state-of-the-art streaming technology, they are able to bring the real
-    experience of playing in a physical casino straight to your home. Bet88
+    experience of playing in a physical casino straight to your home. Panalobet
     allows players to interact with real dealers and other players in real-time,
     making it popular among Filipinos.
   </p>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Why Players Choose Bet88 Live Casino?
+    Why Players Choose Panalobet Live Casino?
   </h2>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -66,7 +113,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    The Bet88 website is designed to be user-friendly, making it easy to
+    The Panalobet website is designed to be user-friendly, making it easy to
     navigate and find games. Their platform is also mobile-friendly, allowing
     players to enjoy their favorite games anywhere and anytime. High quality
     video streaming and audio provide an immersive experience, making it seem
@@ -78,7 +125,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    At Bet88 Live Casino, a wide range of games can be found, including:
+    At Panalobet Live Casino, a wide range of games can be found, including:
   </p>
   <h4
     class="text-xl sm:text-xl md:text-1xl lg:text-2xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 bg-gradient-to-r from-orange-100 to-yellow-100 text-transparent bg-clip-text font-bold">
@@ -106,8 +153,8 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
   </h4>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-8 md:px-8 lg:px-16 xl:px-32 text-white">
-    For sports lovers, Bet88 also offers sports betting options where you can
-    bet on various sporting events, from basketball to boxing.
+    For sports lovers, Panalobet also offers sports betting options where you
+    can bet on various sporting events, from basketball to boxing.
   </p>
   <h3
     class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold">
@@ -115,7 +162,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    Bet88 is known for their high level of security. They use advanced
+    Panalobet is known for their high level of security. They use advanced
     encryption technologies to ensure the safety of players' transactions and
     information. It is also easy to deposit and withdraw using local payment
     methods such as GCash, PayMaya, and bank transfer. The withdrawal process is
@@ -127,15 +174,15 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
   </h3>
   <p
     class="text-ml sm:text-m md:text-l lg:text-xl mb-5 px-5 md:px-5 lg:px-10 xl:px-20 text-white">
-    A big attraction of Bet88 Live Casino is their promotions and bonuses. New
-    players can get a welcome bonus that carries a lot of money to get started.
-    There are also regular promotions for loyal players, such as cashback
-    offers, free spins, and tournaments with big prizes.
+    A big attraction of Panalobet Live Casino is their promotions and bonuses.
+    New players can get a welcome bonus that carries a lot of money to get
+    started. There are also regular promotions for loyal players, such as
+    cashback offers, free spins, and tournaments with big prizes.
   </p>
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-10 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    How to Get Started with Bet88 Live Casino?
+    How to Get Started with Panalobet Live Casino?
   </h2>
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
@@ -159,11 +206,12 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
           Sign Up:
         </h4>
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
-          The first step to get started with Bet88 is to register an account.
-          The process is easy and fast. Just visit the Bet88 official website,
-          click “Register,” and fill in the required information such as name,
-          email address, and other personal details. Be sure to enter the
-          correct information to avoid any problems with account verification.
+          The first step to get started with Panalobet is to register an
+          account. The process is easy and fast. Just visit the Panalobet
+          official website, click “Register,” and fill in the required
+          information such as name, email address, and other personal details.
+          Be sure to enter the correct information to avoid any problems with
+          account verification.
         </p>
       </div>
     </div>
@@ -181,7 +229,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
           Deposit of Funds:
         </h4>
         <p class="text-left text-ml sm:text-m md:text-l lg:text-xl text-white">
-          After signing up, you need to make a deposit to play. Bet88 offers
+          After signing up, you need to make a deposit to play. Panalobet offers
           different payment options. Choose your favorite method, enter the
           amount, and follow the deposit instructions. You will see your funds
           in your account and you are ready to play.
@@ -233,7 +281,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
     <div class="md:w-1/2 flex flex-col items-center md:pl-20 lg:pl-20">
       <h3
         class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed pt-5 md:pt-5 lg:pt-10 xl:pt-20">
-        Tips for Playing Successfully at Bet88 Live Casino
+        Tips for Playing Successfully at Panalobet Live Casino
       </h3>
       <p class="text-ml sm:text-m md:text-l lg:text-xl text-white mb-5">
         <strong
@@ -258,8 +306,8 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
           class="bg-gradient-to-r from-yellow-100 to-orange-200 text-transparent bg-clip-text font-bold"
           >Take advantage of the Bonuses:</strong
         >
-        Don't forget to use the bonuses and promotions offered by Bet88. These
-        will help you get more funds and more chances to win.
+        Don't forget to use the bonuses and promotions offered by Panalobet.
+        These will help you get more funds and more chances to win.
       </p>
 
       <p class="text-ml sm:text-m md:text-l lg:text-xl text-white">

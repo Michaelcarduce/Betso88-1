@@ -19,6 +19,54 @@ import steps2 from "@/assets/img/fishingSteps2.webp";
 import steps3 from "@/assets/img/fishingSteps3.webp";
 import icon2 from "@/assets/img/fishingIcon2.webp";
 
+import { onMounted } from "vue";
+
+onMounted(() => {
+  // Update the <title> tag
+  document.title =
+    "Exciting Online Fishing Games | Real Game Real Win-Panalobet";
+
+  // Update the <meta name="description"> tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+  if (!metaDescription) {
+    metaDescription = document.createElement("meta");
+    metaDescription.name = "description";
+    document.head.appendChild(metaDescription);
+  }
+  metaDescription.content =
+    "Enjoy the thrilling world of online fishing games in Philippines ! Experience realistic gameplay, big rewards, and endless fun. Cast your nets and start winning now!";
+
+  // Update the <link rel="canonical"> tag
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement("link");
+    canonicalLink.rel = "canonical";
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = window.location.href;
+
+  // Add schema markup
+  const schemaScript = document.createElement("script");
+  schemaScript.type = "application/ld+json";
+  schemaScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Exciting Online Fishing Games | Real Game Real Win-Panalobet",
+    description:
+      "Enjoy the thrilling world of online fishing games in Philippines ! Experience realistic gameplay, big rewards, and endless fun. Cast your nets and start winning now!",
+    url: window.location.href,
+    publisher: {
+      "@type": "Organization",
+      name: "Panalobet",
+      logo: {
+        "@type": "ImageObject",
+        url: "@/assets/img/logo.png", // Replace with the actual logo URL
+      },
+    },
+  });
+  document.head.appendChild(schemaScript);
+});
+
 const faqData = [
   {
     question: "Q1: What are the main ways to win at Panalobet Fishing?",

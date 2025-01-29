@@ -10,6 +10,54 @@ import bannerMobile1 from "@/assets/img/slotsBannerMobile1.webp";
 import image1 from "@/assets/img/slotsIcon1.webp";
 import banner2 from "@/assets/img/slotsBanner2.webp";
 import bannerMobile2 from "@/assets/img/slotsBannerMobile2.webp";
+
+import { onMounted } from "vue";
+
+onMounted(() => {
+  // Update the <title> tag
+  document.title =
+    "Play the Hottest and Most Exciting Online Slot Games | Panalobet";
+
+  // Update the <meta name="description"> tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+  if (!metaDescription) {
+    metaDescription = document.createElement("meta");
+    metaDescription.name = "description";
+    document.head.appendChild(metaDescription);
+  }
+  metaDescription.content =
+    "Join Panalobet to play the hottest online slot games and win up to ₱57,888. Enjoy thrilling gameplay, great security and big prizes now!";
+
+  // Update the <link rel="canonical"> tag
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement("link");
+    canonicalLink.rel = "canonical";
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = window.location.href;
+
+  // Add schema markup
+  const schemaScript = document.createElement("script");
+  schemaScript.type = "application/ld+json";
+  schemaScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Play the Hottest and Most Exciting Online Slot Games | Panalobet",
+    description:
+      "Join Panalobet to play the hottest online slot games and win up to ₱57,888. Enjoy thrilling gameplay, great security and big prizes now!",
+    url: window.location.href,
+    publisher: {
+      "@type": "Organization",
+      name: "Panalobet",
+      logo: {
+        "@type": "ImageObject",
+        url: "@/assets/img/logo.png", // Replace with the actual logo URL
+      },
+    },
+  });
+  document.head.appendChild(schemaScript);
+});
 </script>
 
 <template>

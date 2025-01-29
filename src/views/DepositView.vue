@@ -12,6 +12,53 @@ import icon1 from "@/assets/img/liveCasinoIcon1.webp";
 import steps1 from "@/assets/img/liveCasinoSteps1.webp";
 import steps2 from "@/assets/img/liveCasinoSteps2.webp";
 import steps3 from "@/assets/img/liveCasinoSteps3.webp";
+
+import { onMounted } from "vue";
+
+onMounted(() => {
+  // Update the <title> tag
+  document.title = "Guide to Deposit Panalobet | Online Casino in Philippines";
+
+  // Update the <meta name="description"> tag
+  let metaDescription = document.querySelector('meta[name="description"]');
+  if (!metaDescription) {
+    metaDescription = document.createElement("meta");
+    metaDescription.name = "description";
+    document.head.appendChild(metaDescription);
+  }
+  metaDescription.content =
+    "How to Deposit Safely and Easily at Panalobet, learn step-by-step instructions, tips for secure transactions, and available payment options.";
+
+  // Update the <link rel="canonical"> tag
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement("link");
+    canonicalLink.rel = "canonical";
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = window.location.href;
+
+  // Add schema markup
+  const schemaScript = document.createElement("script");
+  schemaScript.type = "application/ld+json";
+  schemaScript.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Guide to Deposit Panalobet | Online Casino in Philippines",
+    description:
+      "How to Deposit Safely and Easily at Panalobet, learn step-by-step instructions, tips for secure transactions, and available payment options.",
+    url: window.location.href,
+    publisher: {
+      "@type": "Organization",
+      name: "Panalobet",
+      logo: {
+        "@type": "ImageObject",
+        url: "@/assets/img/logo.png", // Replace with the actual logo URL
+      },
+    },
+  });
+  document.head.appendChild(schemaScript);
+});
 </script>
 
 <template>
@@ -23,7 +70,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
     :imageMobileSrc="bannerMobile1" />
   <Hero
     class="mb-10"
-    title="Deposit Bet88, the First Step Towards Victory"
+    title="Deposit Panalobet, the First Step Towards Victory"
     subTitle="" />
 
   <h2
@@ -31,23 +78,23 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
     Introduction
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    • General idea about Bet88 as an online casino.
+    • General idea about Panalobet as an online casino.
   </p>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    • Why depositing at Bet88 is important for new players and seasoned players
-    alike.
+    • Why depositing at Panalobet is important for new players and seasoned
+    players alike.
   </p>
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    How to Get Started: Guide to Deposit Bet88
+    How to Get Started: Guide to Deposit Panalobet
   </h2>
 
   <div class="flex flex-wrap justify-center items-center gap-5">
     <AnimatedCard :duration="1000" speed="ease-out">
       <h4
         class="text-center text-xl sm:text-xl md:text-1xl lg:text-2xl bg-gradient-to-r from-yellow-100 to-red-200 text-transparent bg-clip-text font-bold mb-2">
-        Bet88 Registration:
+        Panalobet Registration:
       </h4>
       <p class="text-center text-ml sm:text-m md:text-l lg:text-xl text-white">
         How to sign up and create an account.
@@ -59,7 +106,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
         Choose Deposit Method:
       </h4>
       <p class="text-center text-ml sm:text-m md:text-l lg:text-xl text-white">
-        Various payment options at Bet88. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Various payment options at Panalobet. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </p>
     </AnimatedCard>
     <AnimatedCard :duration="1400" speed="ease-out">
@@ -76,7 +123,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
 
   <h2
     class="text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-10 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Benefits of Using Deposit Bet88
+    Benefits of Using Deposit Panalobet
   </h2>
   <div
     class="mb-10 flex flex-col md:flex-row gap-10 bg-midnightGlass backdrop-blur-md rounded-[7px] w-full py-10 px-10">
@@ -162,7 +209,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
 
   <h2
     class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-5 mt-20 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed">
-    Types of Games Accessible at Deposit Bet88
+    Types of Games Accessible at Deposit Panalobet
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
     • Slots and Progressive Jackpot: The most popular.
@@ -179,7 +226,7 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
     <div class="md:w-1/2 flex flex-col items-center md:pl-20 lg:pl-20">
       <h2
         class="text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-5 bg-gradient-to-r from-yellow-200 to-orange-400 text-transparent bg-clip-text font-bold leading-relaxed pt-5 md:pt-5 lg:pt-10 xl:pt-20">
-        Tips for Success in Bet88
+        Tips for Success in Panalobet
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </h2>
       <p class="text-ml sm:text-m md:text-l lg:text-xl text-white mb-5">
@@ -224,10 +271,10 @@ import steps3 from "@/assets/img/liveCasinoSteps3.webp";
     Conclusion
   </h2>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    • Summary of Bet88 benefits and satisfaction.
+    • Summary of Panalobet benefits and satisfaction.
   </p>
   <p class="text-ml sm:text-m md:text-l lg:text-xl mb-5 text-white">
-    • Encourage readers to try their luck and take advantage of Bet88
+    • Encourage readers to try their luck and take advantage of Panalobet
     opportunities.
   </p>
 
