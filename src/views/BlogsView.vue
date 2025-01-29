@@ -25,15 +25,15 @@ import blogs from "@/miscellaneous/blogs/BlogDataSource.js";
           :key="blog.id"
           :image="blog.image"
           :title="
-            blog.title.length > 55
-              ? blog.title.substring(0, 55) + ' ...'
+            blog.title.length > 45
+              ? blog.title.substring(0, 45) + ' ...'
               : blog.title
           "
           :Author="blog.Author"
           :Date="blog.Date"
           :description="
-            blog.description.length > 120
-              ? blog.description.substring(0, 120) + ' ...'
+            blog.description.length > 100
+              ? blog.description.substring(0, 100) + ' ...'
               : blog.description
           "
           :link="blog.link"

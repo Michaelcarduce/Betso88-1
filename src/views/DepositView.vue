@@ -6,8 +6,8 @@ import Image from "@/components/Image.vue";
 import InfoGraphics from "@/components/InfoGraphics.vue";
 import Footer from "@/components/Footer.vue";
 
-import banner1 from "@/assets/img/liveCasinoBanner1.webp";
-import bannerMobile1 from "@/assets/img/liveCasinoBannerMobile1.webp";
+import banner1 from "@/assets/img/depositBanner1.webp";
+import bannerMobile1 from "@/assets/img/depositBannerMobile1.webp";
 import icon1 from "@/assets/img/liveCasinoIcon1.webp";
 import steps1 from "@/assets/img/liveCasinoSteps1.webp";
 import steps2 from "@/assets/img/liveCasinoSteps2.webp";

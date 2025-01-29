@@ -8,8 +8,8 @@ import InfoGraphics from "@/components/InfoGraphics.vue";
 import Footer from "@/components/Footer.vue";
 import FAQs from "@/components/FAQs.vue";
 
-import banner1 from "@/assets/img/liveCasinoBanner1.webp";
-import bannerMobile1 from "@/assets/img/liveCasinoBannerMobile1.webp";
+import banner1 from "@/assets/img/promotionBanner1.webp";
+import bannerMobile1 from "@/assets/img/promotionBannerMobile1.webp";
 import icon1 from "@/assets/img/promotionIcon1.webp";
 import steps1 from "@/assets/img/promotionSteps1.webp";
 import steps2 from "@/assets/img/promotionSteps2.webp";
